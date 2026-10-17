@@ -1,0 +1,191 @@
+/* Progressive enhancement: nothing starts hidden or waits on animation. */
+:root {
+  --fsa-motion-ease: cubic-bezier(.22, 1, .36, 1);
+}
+
+.motion-toggle {
+  position: fixed;
+  z-index: 45;
+  left: max(18px, env(safe-area-inset-left));
+  bottom: calc(18px + env(safe-area-inset-bottom));
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 40px;
+  max-width: calc(100vw - 36px);
+  padding: 9px 13px;
+  border: 1px solid #c7a86d59;
+  border-radius: 100px;
+  background: #0d1014ed;
+  color: var(--paper, #f4eee6);
+  box-shadow: 0 4px 18px #0003;
+  font: inherit;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: .025em;
+  cursor: pointer;
+}
+
+.motion-toggle > svg {
+  flex: 0 0 auto;
+  color: var(--blush, #e6a7bb);
+}
+
+.motion-toggle:hover:not(:disabled) {
+  border-color: var(--brass, #c7a86d);
+  background: #1c2027;
+}
+
+.motion-toggle:focus-visible {
+  outline: 2px solid var(--blush, #e6a7bb);
+  outline-offset: 4px;
+}
+
+.motion-toggle:disabled {
+  cursor: default;
+  opacity: 1;
+  color: #d0c9c2;
+}
+
+/* Desktop messages remain clear of the lower-left control. */
+:root:has(.academy .toast.show) .motion-toggle {
+  bottom: calc(90px + env(safe-area-inset-bottom));
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root[data-motion="on"] .motion-toggle {
+    transition: color 160ms, background-color 160ms, border-color 160ms;
+  }
+
+  :root[data-motion="on"] .mobile-nav {
+    animation: fsa-menu-enter 180ms var(--fsa-motion-ease);
+  }
+
+  :root[data-motion="on"] .modal-scrim {
+    animation: fsa-scrim-enter 150ms ease-out;
+  }
+
+  :root[data-motion="on"] .modal {
+    animation: fsa-modal-enter 210ms var(--fsa-motion-ease);
+  }
+
+  :root[data-motion="on"] .main-nav > a,
+  :root[data-motion="on"] .learner-nav a,
+  :root[data-motion="on"] .tabs > a,
+  :root[data-motion="on"] .tabs > button,
+  :root[data-motion="on"] .filter-tabs > button,
+  :root[data-motion="on"] .pricing-switch > button {
+    transition: color 180ms ease, background-color 180ms ease, border-color 180ms ease;
+  }
+
+  :root[data-motion="on"] .course-card {
+    transition: transform 250ms var(--fsa-motion-ease);
+  }
+
+  :root[data-motion="on"] .course-art > img {
+    transition: transform 600ms var(--fsa-motion-ease);
+  }
+
+  :root[data-motion="on"] .button {
+    transition: background-color 180ms, border-color 180ms, color 180ms, transform 180ms var(--fsa-motion-ease);
+  }
+
+  :root[data-motion="on"] .toast {
+    transition: opacity 200ms ease, transform 250ms var(--fsa-motion-ease);
+  }
+
+  :root[data-motion="on"] .progress-track > span {
+    transition: width 480ms var(--fsa-motion-ease);
+  }
+}
+
+@keyframes fsa-menu-enter {
+  from { opacity: .8; transform: translateY(-6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fsa-scrim-enter {
+  from { opacity: .7; }
+  to { opacity: 1; }
+}
+
+@keyframes fsa-modal-enter {
+  from { opacity: .8; transform: translateY(6px) scale(.985); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* Keep static transforms used for layout, such as the centered toast and
+   rotated editorial artwork. Suppress only interactive movement. */
+:root[data-motion="off"] {
+  scroll-behavior: auto !important;
+}
+
+:root[data-motion="off"] .academy *,
+:root[data-motion="off"] .academy *::before,
+:root[data-motion="off"] .academy *::after {
+  animation: none !important;
+  transition: none !important;
+  scroll-behavior: auto !important;
+}
+
+:root[data-motion="off"] .academy .button:hover,
+:root[data-motion="off"] .academy .course-card:hover,
+:root[data-motion="off"] .academy .course-card:hover .course-art > img {
+  transform: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html,
+  .academy *,
+  .academy *::before,
+  .academy *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+
+  .academy .button:hover,
+  .academy .course-card:hover,
+  .academy .course-card:hover .course-art > img {
+    transform: none !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .motion-toggle {
+    left: max(14px, env(safe-area-inset-left));
+    bottom: calc(14px + env(safe-area-inset-bottom));
+    width: 44px;
+    min-width: 44px;
+    max-width: 44px;
+    height: 44px;
+    min-height: 44px;
+    padding: 0;
+    gap: 0;
+  }
+
+  .motion-toggle > span {
+    display: none;
+  }
+
+  .motion-toggle > svg {
+    width: 15px;
+    height: 15px;
+  }
+
+  :root:has(.academy .toast.show) .motion-toggle {
+    bottom: calc(14px + env(safe-area-inset-bottom));
+  }
+}
+
+@media print {
+  .motion-toggle { display: none !important; }
+  .academy *,
+  .academy *::before,
+  .academy *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

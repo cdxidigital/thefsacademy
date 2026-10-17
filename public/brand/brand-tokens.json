@@ -1,0 +1,13 @@
+{
+  "source": "fleshsesh-academy-brand-guide(1).pdf",
+  "version": "1.0",
+  "page": 7,
+  "colourSpace": "sRGB",
+  "tokens": {
+    "ink": "#0D1014",
+    "paper": "#F4EEE6",
+    "berry": "#9D3A5C",
+    "blush": "#E6A7BB",
+    "brass": "#C7A86D"
+  }
+}

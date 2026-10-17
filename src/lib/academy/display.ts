@@ -1,0 +1,21 @@
+export const moduleArt:Record<string,{image:string;tone:string;tag:string;short:string}>= {
+ C01:{image:'connection',tone:'peach',tag:'THE FOUNDATION',short:'Consent & autonomy'},
+ C02:{image:'boundaries',tone:'pink',tag:'FIND YOUR WORDS',short:'Communication & boundaries'},
+ C03:{image:'bodies',tone:'cream',tag:'UNDERSTAND YOURSELF',short:'Bodies & anatomy'},
+ C04:{image:'wellbeing',tone:'violet',tag:'MAKE SPACE FOR YOU',short:'Desire & wellbeing'},
+ C05:{image:'bodies',tone:'sage',tag:'INFORMED CHOICES',short:'Sexual health & care'},
+ C06:{image:'connection',tone:'pink',tag:'BETTER TOGETHER',short:'Relationships & agreements'},
+ C07:{image:'connection',tone:'sage',tag:'EVERY BODY BELONGS',short:'Inclusive intimacy'},
+ C08:{image:'wellbeing',tone:'cream',tag:'ON YOUR TERMS',short:'Access & changing bodies'},
+ C09:{image:'boundaries',tone:'violet',tag:'EXPLORE WITH CARE',short:'Interests & kink literacy'},
+ C10:{image:'boundaries',tone:'pink',tag:'CONNECTED & CONSIDERED',short:'Digital intimacy'},
+ C11:{image:'wellbeing',tone:'peach',tag:'SUPPORT & UNDERSTANDING',short:'When sex is difficult'},
+ C12:{image:'connection',tone:'cream',tag:'YOUR NEXT CHAPTER',short:'Putting learning into practice'},
+ E01:{image:'wellbeing',tone:'pink',tag:'GO A LITTLE DEEPER',short:'Practical intimacy & pleasure'},
+ E02:{image:'bodies',tone:'sage',tag:'INFORMED & PREPARED',short:'Sexual activities & health'},
+ E03:{image:'connection',tone:'peach',tag:'MAKE YOUR OWN AGREEMENTS',short:'Nonmonogamy & shared settings'},
+ E04:{image:'boundaries',tone:'violet',tag:'CLARITY BEFORE CURIOSITY',short:'Kink negotiation & power'},
+ E05:{image:'boundaries',tone:'pink',tag:'CONNECT WITH CONFIDENCE',short:'Dating & digital choices'},
+ E06:{image:'wellbeing',tone:'cream',tag:'ROOM FOR CHANGE',short:'Intimacy through change'},
+};
+export const money=(value:number)=>new Intl.NumberFormat('en-AU',{style:'currency',currency:'AUD',maximumFractionDigits:0}).format(value);

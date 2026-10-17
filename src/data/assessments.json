@@ -1,0 +1,5605 @@
+{
+  "schemaVersion": "2.0.0",
+  "classification": "SERVER_ONLY_ASSESSMENT_BANK",
+  "courseId": "FSA-FOUNDATIONS-2026",
+  "courseVersion": "1.1",
+  "rulesVersion": "1.0",
+  "rules": {
+    "formativeCount": 96,
+    "capstoneCount": 12,
+    "coreModulePassCorrect": 5,
+    "coreModuleQuestionCount": 6,
+    "electivePassCorrect": 4,
+    "electiveQuestionCount": 4,
+    "capstonePassCorrect": 10,
+    "capstoneQuestionCount": 12,
+    "criticalCapstoneIds": [
+      "CAP01-Q01",
+      "CAP01-Q02",
+      "CAP01-Q03",
+      "CAP01-Q04"
+    ],
+    "unlimitedRetries": true,
+    "planningRubricRequired": true,
+    "appliedCaseCount": 6,
+    "appliedCasePassCorrect": 6,
+    "totalItems": 114,
+    "writtenCaseAlternative": "All six rubric criteria met following human review; self-check is preparation only.",
+    "orientationRequired": true,
+    "coreLessonIds": [
+      "C01-L01",
+      "C01-L02",
+      "C01-L03",
+      "C02-L01",
+      "C02-L02",
+      "C02-L03",
+      "C03-L01",
+      "C03-L02",
+      "C03-L03",
+      "C04-L01",
+      "C04-L02",
+      "C04-L03",
+      "C05-L01",
+      "C05-L02",
+      "C05-L03",
+      "C06-L01",
+      "C06-L02",
+      "C06-L03",
+      "C07-L01",
+      "C07-L02",
+      "C07-L03",
+      "C08-L01",
+      "C08-L02",
+      "C08-L03",
+      "C09-L01",
+      "C09-L02",
+      "C09-L03",
+      "C10-L01",
+      "C10-L02",
+      "C10-L03",
+      "C11-L01",
+      "C11-L02",
+      "C11-L03",
+      "C12-L01",
+      "C12-L02",
+      "C12-L03"
+    ],
+    "coreAssessmentIds": [
+      "C01-TEST",
+      "C02-TEST",
+      "C03-TEST",
+      "C04-TEST",
+      "C05-TEST",
+      "C06-TEST",
+      "C07-TEST",
+      "C08-TEST",
+      "C09-TEST",
+      "C10-TEST",
+      "C11-TEST",
+      "C12-TEST"
+    ],
+    "capstoneAssessmentId": "CAP01",
+    "planningAssessmentId": "PLAN01",
+    "electivesRequiredForCoreCertificate": false,
+    "requireAllCriticalItemsCorrectInPassingCapstoneAttempt": true,
+    "retakesRequireNewServerScoredAttempt": true,
+    "privateReflectionsRequired": false,
+    "writtenAlternativeAuthority": "human_reviewer",
+    "modelMayAlterScore": false,
+    "modelMayIssueCertificate": false
+  },
+  "assessments": [
+    {
+      "id": "C01-L01-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C01",
+      "lessonId": "C01-L01",
+      "title": "Consent is an active choice — knowledge check",
+      "questionIds": [
+        "C01-L01-Q01",
+        "C01-L01-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C01-L02-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C01",
+      "lessonId": "C01-L02",
+      "title": "Capacity, access and freedom from pressure — knowledge check",
+      "questionIds": [
+        "C01-L02-Q01",
+        "C01-L02-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C01-L03-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C01",
+      "lessonId": "C01-L03",
+      "title": "Check in, stop and respond with care — knowledge check",
+      "questionIds": [
+        "C01-L03-Q01",
+        "C01-L03-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C01-TEST",
+      "kind": "core_module",
+      "moduleId": "C01",
+      "lessonId": null,
+      "title": "Consent and autonomy — module check",
+      "questionIds": [
+        "C01-L01-Q01",
+        "C01-L01-Q02",
+        "C01-L02-Q01",
+        "C01-L02-Q02",
+        "C01-L03-Q01",
+        "C01-L03-Q02"
+      ],
+      "passingScore": 5,
+      "criticalQuestionIds": [],
+      "requiredLessonIds": [
+        "C01-L01",
+        "C01-L02",
+        "C01-L03"
+      ],
+      "prerequisiteModuleIds": [],
+      "countsForCertificate": true,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer per question. Score at least 5 of 6 to pass. There is no time limit; feedback and retries are available."
+    },
+    {
+      "id": "C02-L01-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C02",
+      "lessonId": "C02-L01",
+      "title": "Ask clearly and listen to the answer — knowledge check",
+      "questionIds": [
+        "C02-L01-Q01",
+        "C02-L01-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C02-L02-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C02",
+      "lessonId": "C02-L02",
+      "title": "Boundaries, requests and incompatibility — knowledge check",
+      "questionIds": [
+        "C02-L02-Q01",
+        "C02-L02-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C02-L03-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C02",
+      "lessonId": "C02-L03",
+      "title": "Digital consent and personal privacy — knowledge check",
+      "questionIds": [
+        "C02-L03-Q01",
+        "C02-L03-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C02-TEST",
+      "kind": "core_module",
+      "moduleId": "C02",
+      "lessonId": null,
+      "title": "Communication and boundaries — module check",
+      "questionIds": [
+        "C02-L01-Q01",
+        "C02-L01-Q02",
+        "C02-L02-Q01",
+        "C02-L02-Q02",
+        "C02-L03-Q01",
+        "C02-L03-Q02"
+      ],
+      "passingScore": 5,
+      "criticalQuestionIds": [],
+      "requiredLessonIds": [
+        "C02-L01",
+        "C02-L02",
+        "C02-L03"
+      ],
+      "prerequisiteModuleIds": [
+        "C01"
+      ],
+      "countsForCertificate": true,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer per question. Score at least 5 of 6 to pass. There is no time limit; feedback and retries are available."
+    },
+    {
+      "id": "C03-L01-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C03",
+      "lessonId": "C03-L01",
+      "title": "Anatomy without assumptions — knowledge check",
+      "questionIds": [
+        "C03-L01-Q01",
+        "C03-L01-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C03-L02-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C03",
+      "lessonId": "C03-L02",
+      "title": "Variation, sensation and body image — knowledge check",
+      "questionIds": [
+        "C03-L02-Q01",
+        "C03-L02-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C03-L03-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C03",
+      "lessonId": "C03-L03",
+      "title": "Body care and getting useful health support — knowledge check",
+      "questionIds": [
+        "C03-L03-Q01",
+        "C03-L03-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C03-TEST",
+      "kind": "core_module",
+      "moduleId": "C03",
+      "lessonId": null,
+      "title": "Bodies, anatomy and normal variation — module check",
+      "questionIds": [
+        "C03-L01-Q01",
+        "C03-L01-Q02",
+        "C03-L02-Q01",
+        "C03-L02-Q02",
+        "C03-L03-Q01",
+        "C03-L03-Q02"
+      ],
+      "passingScore": 5,
+      "criticalQuestionIds": [],
+      "requiredLessonIds": [
+        "C03-L01",
+        "C03-L02",
+        "C03-L03"
+      ],
+      "prerequisiteModuleIds": [
+        "C01"
+      ],
+      "countsForCertificate": true,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer per question. Score at least 5 of 6 to pass. There is no time limit; feedback and retries are available."
+    },
+    {
+      "id": "C04-L01-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C04",
+      "lessonId": "C04-L01",
+      "title": "Desire is not the same as arousal — knowledge check",
+      "questionIds": [
+        "C04-L01-Q01",
+        "C04-L01-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C04-L02-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C04",
+      "lessonId": "C04-L02",
+      "title": "Pleasure without a performance target — knowledge check",
+      "questionIds": [
+        "C04-L02-Q01",
+        "C04-L02-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C04-L03-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C04",
+      "lessonId": "C04-L03",
+      "title": "Solo wellbeing, privacy and self-directed choice — knowledge check",
+      "questionIds": [
+        "C04-L03-Q01",
+        "C04-L03-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C04-TEST",
+      "kind": "core_module",
+      "moduleId": "C04",
+      "lessonId": null,
+      "title": "Desire, arousal, pleasure and solo wellbeing — module check",
+      "questionIds": [
+        "C04-L01-Q01",
+        "C04-L01-Q02",
+        "C04-L02-Q01",
+        "C04-L02-Q02",
+        "C04-L03-Q01",
+        "C04-L03-Q02"
+      ],
+      "passingScore": 5,
+      "criticalQuestionIds": [],
+      "requiredLessonIds": [
+        "C04-L01",
+        "C04-L02",
+        "C04-L03"
+      ],
+      "prerequisiteModuleIds": [
+        "C01",
+        "C03"
+      ],
+      "countsForCertificate": true,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer per question. Score at least 5 of 6 to pass. There is no time limit; feedback and retries are available."
+    },
+    {
+      "id": "C05-L01-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C05",
+      "lessonId": "C05-L01",
+      "title": "Build a practical prevention plan — knowledge check",
+      "questionIds": [
+        "C05-L01-Q01",
+        "C05-L01-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C05-L02-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C05",
+      "lessonId": "C05-L02",
+      "title": "Testing, results and conversations without stigma — knowledge check",
+      "questionIds": [
+        "C05-L02-Q01",
+        "C05-L02-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C05-L03-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C05",
+      "lessonId": "C05-L03",
+      "title": "Contraception and time-sensitive care — knowledge check",
+      "questionIds": [
+        "C05-L03-Q01",
+        "C05-L03-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C05-TEST",
+      "kind": "core_module",
+      "moduleId": "C05",
+      "lessonId": null,
+      "title": "Safer sex, sexual health and contraception — module check",
+      "questionIds": [
+        "C05-L01-Q01",
+        "C05-L01-Q02",
+        "C05-L02-Q01",
+        "C05-L02-Q02",
+        "C05-L03-Q01",
+        "C05-L03-Q02"
+      ],
+      "passingScore": 5,
+      "criticalQuestionIds": [],
+      "requiredLessonIds": [
+        "C05-L01",
+        "C05-L02",
+        "C05-L03"
+      ],
+      "prerequisiteModuleIds": [
+        "C01",
+        "C02",
+        "C03"
+      ],
+      "countsForCertificate": true,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer per question. Score at least 5 of 6 to pass. There is no time limit; feedback and retries are available."
+    },
+    {
+      "id": "C06-L01-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C06",
+      "lessonId": "C06-L01",
+      "title": "Choose agreements, not assumptions — knowledge check",
+      "questionIds": [
+        "C06-L01-Q01",
+        "C06-L01-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C06-L02-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C06",
+      "lessonId": "C06-L02",
+      "title": "Jealousy, disagreement and renegotiation — knowledge check",
+      "questionIds": [
+        "C06-L02-Q01",
+        "C06-L02-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C06-L03-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C06",
+      "lessonId": "C06-L03",
+      "title": "Care, repair and respectful endings — knowledge check",
+      "questionIds": [
+        "C06-L03-Q01",
+        "C06-L03-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C06-TEST",
+      "kind": "core_module",
+      "moduleId": "C06",
+      "lessonId": null,
+      "title": "Relationships and agreements — module check",
+      "questionIds": [
+        "C06-L01-Q01",
+        "C06-L01-Q02",
+        "C06-L02-Q01",
+        "C06-L02-Q02",
+        "C06-L03-Q01",
+        "C06-L03-Q02"
+      ],
+      "passingScore": 5,
+      "criticalQuestionIds": [],
+      "requiredLessonIds": [
+        "C06-L01",
+        "C06-L02",
+        "C06-L03"
+      ],
+      "prerequisiteModuleIds": [
+        "C01",
+        "C02",
+        "C05"
+      ],
+      "countsForCertificate": true,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer per question. Score at least 5 of 6 to pass. There is no time limit; feedback and retries are available."
+    },
+    {
+      "id": "C07-L01-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C07",
+      "lessonId": "C07-L01",
+      "title": "Identity without assumptions — knowledge check",
+      "questionIds": [
+        "C07-L01-Q01",
+        "C07-L01-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C07-L02-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C07",
+      "lessonId": "C07-L02",
+      "title": "Bodies, language and intersex inclusion — knowledge check",
+      "questionIds": [
+        "C07-L02-Q01",
+        "C07-L02-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C07-L03-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C07",
+      "lessonId": "C07-L03",
+      "title": "Belonging, privacy and affirming care — knowledge check",
+      "questionIds": [
+        "C07-L03-Q01",
+        "C07-L03-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C07-TEST",
+      "kind": "core_module",
+      "moduleId": "C07",
+      "lessonId": null,
+      "title": "Inclusive intimacy — module check",
+      "questionIds": [
+        "C07-L01-Q01",
+        "C07-L01-Q02",
+        "C07-L02-Q01",
+        "C07-L02-Q02",
+        "C07-L03-Q01",
+        "C07-L03-Q02"
+      ],
+      "passingScore": 5,
+      "criticalQuestionIds": [],
+      "requiredLessonIds": [
+        "C07-L01",
+        "C07-L02",
+        "C07-L03"
+      ],
+      "prerequisiteModuleIds": [
+        "C01",
+        "C02"
+      ],
+      "countsForCertificate": true,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer per question. Score at least 5 of 6 to pass. There is no time limit; feedback and retries are available."
+    },
+    {
+      "id": "C08-L01-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C08",
+      "lessonId": "C08-L01",
+      "title": "Access is part of consent — knowledge check",
+      "questionIds": [
+        "C08-L01-Q01",
+        "C08-L01-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C08-L02-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C08",
+      "lessonId": "C08-L02",
+      "title": "Sensory needs, energy and chronic conditions — knowledge check",
+      "questionIds": [
+        "C08-L02-Q01",
+        "C08-L02-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C08-L03-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C08",
+      "lessonId": "C08-L03",
+      "title": "Changing bodies across adulthood — knowledge check",
+      "questionIds": [
+        "C08-L03-Q01",
+        "C08-L03-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C08-TEST",
+      "kind": "core_module",
+      "moduleId": "C08",
+      "lessonId": null,
+      "title": "Access and changing bodies — module check",
+      "questionIds": [
+        "C08-L01-Q01",
+        "C08-L01-Q02",
+        "C08-L02-Q01",
+        "C08-L02-Q02",
+        "C08-L03-Q01",
+        "C08-L03-Q02"
+      ],
+      "passingScore": 5,
+      "criticalQuestionIds": [],
+      "requiredLessonIds": [
+        "C08-L01",
+        "C08-L02",
+        "C08-L03"
+      ],
+      "prerequisiteModuleIds": [
+        "C01",
+        "C02",
+        "C03"
+      ],
+      "countsForCertificate": true,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer per question. Score at least 5 of 6 to pass. There is no time limit; feedback and retries are available."
+    },
+    {
+      "id": "C09-L01-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C09",
+      "lessonId": "C09-L01",
+      "title": "Curiosity is not an obligation — knowledge check",
+      "questionIds": [
+        "C09-L01-Q01",
+        "C09-L01-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C09-L02-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C09",
+      "lessonId": "C09-L02",
+      "title": "Negotiation, power and stopping — knowledge check",
+      "questionIds": [
+        "C09-L02-Q01",
+        "C09-L02-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C09-L03-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C09",
+      "lessonId": "C09-L03",
+      "title": "Risk awareness, aftercare and accountability — knowledge check",
+      "questionIds": [
+        "C09-L03-Q01",
+        "C09-L03-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C09-TEST",
+      "kind": "core_module",
+      "moduleId": "C09",
+      "lessonId": null,
+      "title": "Exploring interests and kink literacy — module check",
+      "questionIds": [
+        "C09-L01-Q01",
+        "C09-L01-Q02",
+        "C09-L02-Q01",
+        "C09-L02-Q02",
+        "C09-L03-Q01",
+        "C09-L03-Q02"
+      ],
+      "passingScore": 5,
+      "criticalQuestionIds": [],
+      "requiredLessonIds": [
+        "C09-L01",
+        "C09-L02",
+        "C09-L03"
+      ],
+      "prerequisiteModuleIds": [
+        "C01",
+        "C02",
+        "C04"
+      ],
+      "countsForCertificate": true,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer per question. Score at least 5 of 6 to pass. There is no time limit; feedback and retries are available."
+    },
+    {
+      "id": "C10-L01-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C10",
+      "lessonId": "C10-L01",
+      "title": "Messages, images and AI likenesses — knowledge check",
+      "questionIds": [
+        "C10-L01-Q01",
+        "C10-L01-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C10-L02-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C10",
+      "lessonId": "C10-L02",
+      "title": "Scams, coercion and getting help — knowledge check",
+      "questionIds": [
+        "C10-L02-Q01",
+        "C10-L02-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C10-L03-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C10",
+      "lessonId": "C10-L03",
+      "title": "Pornography and sexual media literacy — knowledge check",
+      "questionIds": [
+        "C10-L03-Q01",
+        "C10-L03-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C10-TEST",
+      "kind": "core_module",
+      "moduleId": "C10",
+      "lessonId": null,
+      "title": "Digital intimacy — module check",
+      "questionIds": [
+        "C10-L01-Q01",
+        "C10-L01-Q02",
+        "C10-L02-Q01",
+        "C10-L02-Q02",
+        "C10-L03-Q01",
+        "C10-L03-Q02"
+      ],
+      "passingScore": 5,
+      "criticalQuestionIds": [],
+      "requiredLessonIds": [
+        "C10-L01",
+        "C10-L02",
+        "C10-L03"
+      ],
+      "prerequisiteModuleIds": [
+        "C01",
+        "C02"
+      ],
+      "countsForCertificate": true,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer per question. Score at least 5 of 6 to pass. There is no time limit; feedback and retries are available."
+    },
+    {
+      "id": "C11-L01-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C11",
+      "lessonId": "C11-L01",
+      "title": "Pain deserves attention — knowledge check",
+      "questionIds": [
+        "C11-L01-Q01",
+        "C11-L01-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C11-L02-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C11",
+      "lessonId": "C11-L02",
+      "title": "Desire, arousal and performance pressure — knowledge check",
+      "questionIds": [
+        "C11-L02-Q01",
+        "C11-L02-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C11-L03-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C11",
+      "lessonId": "C11-L03",
+      "title": "Distress, trauma-sensitive support and referral — knowledge check",
+      "questionIds": [
+        "C11-L03-Q01",
+        "C11-L03-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C11-TEST",
+      "kind": "core_module",
+      "moduleId": "C11",
+      "lessonId": null,
+      "title": "When sex is difficult — module check",
+      "questionIds": [
+        "C11-L01-Q01",
+        "C11-L01-Q02",
+        "C11-L02-Q01",
+        "C11-L02-Q02",
+        "C11-L03-Q01",
+        "C11-L03-Q02"
+      ],
+      "passingScore": 5,
+      "criticalQuestionIds": [],
+      "requiredLessonIds": [
+        "C11-L01",
+        "C11-L02",
+        "C11-L03"
+      ],
+      "prerequisiteModuleIds": [
+        "C01",
+        "C02",
+        "C03",
+        "C04"
+      ],
+      "countsForCertificate": true,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer per question. Score at least 5 of 6 to pass. There is no time limit; feedback and retries are available."
+    },
+    {
+      "id": "C12-L01-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C12",
+      "lessonId": "C12-L01",
+      "title": "Your private wellbeing and boundary plan — knowledge check",
+      "questionIds": [
+        "C12-L01-Q01",
+        "C12-L01-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C12-L02-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C12",
+      "lessonId": "C12-L02",
+      "title": "Boundaries, repair and accountability — knowledge check",
+      "questionIds": [
+        "C12-L02-Q01",
+        "C12-L02-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C12-L03-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "C12",
+      "lessonId": "C12-L03",
+      "title": "Find reliable help and make informed decisions — knowledge check",
+      "questionIds": [
+        "C12-L03-Q01",
+        "C12-L03-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "C12-TEST",
+      "kind": "core_module",
+      "moduleId": "C12",
+      "lessonId": null,
+      "title": "Putting learning into practice — module check",
+      "questionIds": [
+        "C12-L01-Q01",
+        "C12-L01-Q02",
+        "C12-L02-Q01",
+        "C12-L02-Q02",
+        "C12-L03-Q01",
+        "C12-L03-Q02"
+      ],
+      "passingScore": 5,
+      "criticalQuestionIds": [],
+      "requiredLessonIds": [
+        "C12-L01",
+        "C12-L02",
+        "C12-L03"
+      ],
+      "prerequisiteModuleIds": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C11"
+      ],
+      "countsForCertificate": true,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer per question. Score at least 5 of 6 to pass. There is no time limit; feedback and retries are available."
+    },
+    {
+      "id": "E01-L01-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "E01",
+      "lessonId": "E01-L01",
+      "title": "Choosing touch and giving useful feedback — knowledge check",
+      "questionIds": [
+        "E01-L01-Q01",
+        "E01-L01-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "E01-L02-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "E01",
+      "lessonId": "E01-L02",
+      "title": "Toys barriers and body care — knowledge check",
+      "questionIds": [
+        "E01-L02-Q01",
+        "E01-L02-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "E01-TEST",
+      "kind": "elective_module",
+      "moduleId": "E01",
+      "lessonId": null,
+      "title": "Practical intimacy and pleasure — module check",
+      "questionIds": [
+        "E01-L01-Q01",
+        "E01-L01-Q02",
+        "E01-L02-Q01",
+        "E01-L02-Q02"
+      ],
+      "passingScore": 4,
+      "criticalQuestionIds": [],
+      "requiredLessonIds": [
+        "E01-L01",
+        "E01-L02"
+      ],
+      "prerequisiteModuleIds": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05"
+      ],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer per question. Score at least 4 of 4 to pass. There is no time limit; feedback and retries are available."
+    },
+    {
+      "id": "E02-L01-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "E02",
+      "lessonId": "E02-L01",
+      "title": "Oral and genital contact — knowledge check",
+      "questionIds": [
+        "E02-L01-Q01",
+        "E02-L01-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "E02-L02-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "E02",
+      "lessonId": "E02-L02",
+      "title": "Anal health and boundaries — knowledge check",
+      "questionIds": [
+        "E02-L02-Q01",
+        "E02-L02-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "E02-TEST",
+      "kind": "elective_module",
+      "moduleId": "E02",
+      "lessonId": null,
+      "title": "Sexual activities and health — module check",
+      "questionIds": [
+        "E02-L01-Q01",
+        "E02-L01-Q02",
+        "E02-L02-Q01",
+        "E02-L02-Q02"
+      ],
+      "passingScore": 4,
+      "criticalQuestionIds": [],
+      "requiredLessonIds": [
+        "E02-L01",
+        "E02-L02"
+      ],
+      "prerequisiteModuleIds": [
+        "C01",
+        "C02",
+        "C03",
+        "C05"
+      ],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer per question. Score at least 4 of 4 to pass. There is no time limit; feedback and retries are available."
+    },
+    {
+      "id": "E03-L01-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "E03",
+      "lessonId": "E03-L01",
+      "title": "Agreements that include everyone — knowledge check",
+      "questionIds": [
+        "E03-L01-Q01",
+        "E03-L01-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "E03-L02-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "E03",
+      "lessonId": "E03-L02",
+      "title": "Invitations jealousy and group consent — knowledge check",
+      "questionIds": [
+        "E03-L02-Q01",
+        "E03-L02-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "E03-TEST",
+      "kind": "elective_module",
+      "moduleId": "E03",
+      "lessonId": null,
+      "title": "Nonmonogamy and shared settings — module check",
+      "questionIds": [
+        "E03-L01-Q01",
+        "E03-L01-Q02",
+        "E03-L02-Q01",
+        "E03-L02-Q02"
+      ],
+      "passingScore": 4,
+      "criticalQuestionIds": [],
+      "requiredLessonIds": [
+        "E03-L01",
+        "E03-L02"
+      ],
+      "prerequisiteModuleIds": [
+        "C01",
+        "C02",
+        "C05",
+        "C06"
+      ],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer per question. Score at least 4 of 4 to pass. There is no time limit; feedback and retries are available."
+    },
+    {
+      "id": "E04-L01-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "E04",
+      "lessonId": "E04-L01",
+      "title": "Negotiating a first exploration — knowledge check",
+      "questionIds": [
+        "E04-L01-Q01",
+        "E04-L01-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "E04-L02-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "E04",
+      "lessonId": "E04-L02",
+      "title": "Recognising unsafe authority — knowledge check",
+      "questionIds": [
+        "E04-L02-Q01",
+        "E04-L02-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "E04-TEST",
+      "kind": "elective_module",
+      "moduleId": "E04",
+      "lessonId": null,
+      "title": "Kink negotiation and power — module check",
+      "questionIds": [
+        "E04-L01-Q01",
+        "E04-L01-Q02",
+        "E04-L02-Q01",
+        "E04-L02-Q02"
+      ],
+      "passingScore": 4,
+      "criticalQuestionIds": [],
+      "requiredLessonIds": [
+        "E04-L01",
+        "E04-L02"
+      ],
+      "prerequisiteModuleIds": [
+        "C01",
+        "C02",
+        "C05",
+        "C09"
+      ],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer per question. Score at least 4 of 4 to pass. There is no time limit; feedback and retries are available."
+    },
+    {
+      "id": "E05-L01-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "E05",
+      "lessonId": "E05-L01",
+      "title": "Planning a first meeting — knowledge check",
+      "questionIds": [
+        "E05-L01-Q01",
+        "E05-L01-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "E05-L02-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "E05",
+      "lessonId": "E05-L02",
+      "title": "Sharing privacy without pressure — knowledge check",
+      "questionIds": [
+        "E05-L02-Q01",
+        "E05-L02-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "E05-TEST",
+      "kind": "elective_module",
+      "moduleId": "E05",
+      "lessonId": null,
+      "title": "Dating and digital choices — module check",
+      "questionIds": [
+        "E05-L01-Q01",
+        "E05-L01-Q02",
+        "E05-L02-Q01",
+        "E05-L02-Q02"
+      ],
+      "passingScore": 4,
+      "criticalQuestionIds": [],
+      "requiredLessonIds": [
+        "E05-L01",
+        "E05-L02"
+      ],
+      "prerequisiteModuleIds": [
+        "C01",
+        "C02",
+        "C10"
+      ],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer per question. Score at least 4 of 4 to pass. There is no time limit; feedback and retries are available."
+    },
+    {
+      "id": "E06-L01-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "E06",
+      "lessonId": "E06-L01",
+      "title": "Changing bodies and expectations — knowledge check",
+      "questionIds": [
+        "E06-L01-Q01",
+        "E06-L01-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "E06-L02-CHECK",
+      "kind": "lesson_practice",
+      "moduleId": "E06",
+      "lessonId": "E06-L02",
+      "title": "Supporting access together — knowledge check",
+      "questionIds": [
+        "E06-L02-Q01",
+        "E06-L02-Q02"
+      ],
+      "passingScore": 2,
+      "criticalQuestionIds": [],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer for each question. Submit for feedback, then revisit or retry at your pace."
+    },
+    {
+      "id": "E06-TEST",
+      "kind": "elective_module",
+      "moduleId": "E06",
+      "lessonId": null,
+      "title": "Intimacy through change and access — module check",
+      "questionIds": [
+        "E06-L01-Q01",
+        "E06-L01-Q02",
+        "E06-L02-Q01",
+        "E06-L02-Q02"
+      ],
+      "passingScore": 4,
+      "criticalQuestionIds": [],
+      "requiredLessonIds": [
+        "E06-L01",
+        "E06-L02"
+      ],
+      "prerequisiteModuleIds": [
+        "C01",
+        "C02",
+        "C08",
+        "C11"
+      ],
+      "countsForCertificate": false,
+      "unlimitedRetries": true,
+      "instructions": "Choose one answer per question. Score at least 4 of 4 to pass. There is no time limit; feedback and retries are available."
+    },
+    {
+      "id": "CAP01",
+      "kind": "capstone",
+      "moduleId": null,
+      "lessonId": null,
+      "title": "Making informed choices",
+      "questionIds": [
+        "CAP01-Q01",
+        "CAP01-Q02",
+        "CAP01-Q03",
+        "CAP01-Q04",
+        "CAP01-Q05",
+        "CAP01-Q06",
+        "CAP01-Q07",
+        "CAP01-Q08",
+        "CAP01-Q09",
+        "CAP01-Q10",
+        "CAP01-Q11",
+        "CAP01-Q12"
+      ],
+      "passingScore": 10,
+      "criticalQuestionIds": [
+        "CAP01-Q01",
+        "CAP01-Q02",
+        "CAP01-Q03",
+        "CAP01-Q04"
+      ],
+      "requiredModuleAssessmentIds": [
+        "C01-TEST",
+        "C02-TEST",
+        "C03-TEST",
+        "C04-TEST",
+        "C05-TEST",
+        "C06-TEST",
+        "C07-TEST",
+        "C08-TEST",
+        "C09-TEST",
+        "C10-TEST",
+        "C11-TEST",
+        "C12-TEST"
+      ],
+      "countsForCertificate": true,
+      "unlimitedRetries": true,
+      "instructions": "Allow approximately 15 minutes for the 12 capstone questions, 20 minutes for the fictional planning task and its six applied decisions, and five minutes for feedback. There is no enforced time limit. Score at least 10 of 12 on the capstone and resolve every safety-critical item. All six applied-case decisions must also be correct, or a human reviewer must confirm all six criteria in the written alternative. No personal disclosure or sexual activity is required."
+    },
+    {
+      "id": "PLAN01",
+      "kind": "applied_planning",
+      "moduleId": null,
+      "lessonId": null,
+      "title": "A plan for Alex and Sam",
+      "questionIds": [
+        "PLAN01-Q01",
+        "PLAN01-Q02",
+        "PLAN01-Q03",
+        "PLAN01-Q04",
+        "PLAN01-Q05",
+        "PLAN01-Q06"
+      ],
+      "passingScore": 6,
+      "criticalQuestionIds": [
+        "PLAN01-Q01",
+        "PLAN01-Q02",
+        "PLAN01-Q03",
+        "PLAN01-Q04",
+        "PLAN01-Q05",
+        "PLAN01-Q06"
+      ],
+      "requiredModuleAssessmentIds": [
+        "C01-TEST",
+        "C02-TEST",
+        "C03-TEST",
+        "C04-TEST",
+        "C05-TEST",
+        "C06-TEST",
+        "C07-TEST",
+        "C08-TEST",
+        "C09-TEST",
+        "C10-TEST",
+        "C11-TEST",
+        "C12-TEST"
+      ],
+      "countsForCertificate": true,
+      "unlimitedRetries": true,
+      "case": "Alex and Sam are adults planning to spend time together after meeting online. They have different assumptions about what the visit involves. Alex wants a quiet, accessible venue and uses text for some conversations. Sam hopes for intimacy but has not asked about it. Neither has discussed health precautions or photographs. They want a plan that lets either person choose differently on the day.",
+      "task": "Write a short plan for Alex and Sam covering what needs clarification, how they can communicate, how each can decline or leave, what health and privacy questions belong before any intimacy, and where they could seek advice. Their final decision may be to meet without sex or not to meet.",
+      "instructions": "All six applied-case decisions correct after feedback; alternatively, all six written rubric criteria met following human review."
+    }
+  ],
+  "questions": [
+    {
+      "id": "C01-L01-Q01",
+      "kind": "formative",
+      "moduleId": "C01",
+      "lessonId": "C01-L01",
+      "prompt": "Which situation meets the Academy's consent standard?",
+      "options": [
+        "A previous partner assumes the usual activity is still welcome.",
+        "A person stays silent because they feel uncomfortable.",
+        "Each adult freely agrees to the specific activity and can stop.",
+        "Someone agrees after repeated requests to avoid an argument."
+      ],
+      "optionIds": [
+        "C01-L01-Q01-O1",
+        "C01-L01-Q01-O2",
+        "C01-L01-Q01-O3",
+        "C01-L01-Q01-O4"
+      ],
+      "correctIndex": 2,
+      "correctOptionId": "C01-L01-Q01-O3",
+      "feedback": "Consent requires a free, clear and continuing choice. Familiarity, silence and pressure cannot replace that choice.",
+      "critical": false,
+      "sourceIds": [
+        "A01",
+        "A04"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C01-L01-Q02",
+      "kind": "formative",
+      "moduleId": "C01",
+      "lessonId": "C01-L01",
+      "prompt": "What should happen when an answer is uncertain?",
+      "options": [
+        "Pause and clarify without pressure.",
+        "Continue until someone objects.",
+        "Ask repeatedly until the answer changes.",
+        "Use the person's appearance as a guide."
+      ],
+      "optionIds": [
+        "C01-L01-Q02-O1",
+        "C01-L01-Q02-O2",
+        "C01-L01-Q02-O3",
+        "C01-L01-Q02-O4"
+      ],
+      "correctIndex": 0,
+      "correctOptionId": "C01-L01-Q02-O1",
+      "feedback": "Uncertainty is a reason to pause. The responsibility is to establish a willing agreement, not to infer permission.",
+      "critical": false,
+      "sourceIds": [
+        "A01",
+        "A04"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C01-L02-Q01",
+      "kind": "formative",
+      "moduleId": "C01",
+      "lessonId": "C01-L02",
+      "prompt": "Which fact alone establishes that someone cannot consent?",
+      "options": [
+        "They use a communication device.",
+        "They have a disability.",
+        "They are older than their partner.",
+        "None of these facts alone establishes incapacity."
+      ],
+      "optionIds": [
+        "C01-L02-Q01-O1",
+        "C01-L02-Q01-O2",
+        "C01-L02-Q01-O3",
+        "C01-L02-Q01-O4"
+      ],
+      "correctIndex": 3,
+      "correctOptionId": "C01-L02-Q01-O4",
+      "feedback": "Assess the actual ability and freedom to decide in the situation; do not substitute stereotypes about disability, age or speech.",
+      "critical": false,
+      "sourceIds": [
+        "A02",
+        "A05",
+        "A06"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C01-L02-Q02",
+      "kind": "formative",
+      "moduleId": "C01",
+      "lessonId": "C01-L02",
+      "prompt": "A person fears losing essential support if they decline. What is the concern?",
+      "options": [
+        "Their answer is too quiet.",
+        "Their freedom to choose may be compromised.",
+        "They need to give a longer explanation.",
+        "The activity becomes acceptable after a written signature."
+      ],
+      "optionIds": [
+        "C01-L02-Q02-O1",
+        "C01-L02-Q02-O2",
+        "C01-L02-Q02-O3",
+        "C01-L02-Q02-O4"
+      ],
+      "correctIndex": 1,
+      "correctOptionId": "C01-L02-Q02-O2",
+      "feedback": "Dependency and fear can undermine a voluntary choice. A signature or longer explanation does not remove that pressure.",
+      "critical": false,
+      "sourceIds": [
+        "A02",
+        "A05",
+        "A06"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C01-L03-Q01",
+      "kind": "formative",
+      "moduleId": "C01",
+      "lessonId": "C01-L03",
+      "prompt": "When is an agreed stop signal the only valid way to withdraw consent?",
+      "options": [
+        "In a long-term relationship.",
+        "When everyone signed an agreement.",
+        "Never under the Academy's standard.",
+        "When the activity has already begun."
+      ],
+      "optionIds": [
+        "C01-L03-Q01-O1",
+        "C01-L03-Q01-O2",
+        "C01-L03-Q01-O3",
+        "C01-L03-Q01-O4"
+      ],
+      "correctIndex": 2,
+      "correctOptionId": "C01-L03-Q01-O3",
+      "feedback": "A person can withdraw or become unable to participate without using a particular word. Pay attention and stop when unsure.",
+      "critical": false,
+      "sourceIds": [
+        "A01",
+        "A02"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C01-L03-Q02",
+      "kind": "formative",
+      "moduleId": "C01",
+      "lessonId": "C01-L03",
+      "prompt": "Which response shows accountability?",
+      "options": [
+        "You should have explained more clearly.",
+        "I meant well, so we should move on.",
+        "Tell me immediately that I am a good person.",
+        "I should have stopped; I will respect the space you requested."
+      ],
+      "optionIds": [
+        "C01-L03-Q02-O1",
+        "C01-L03-Q02-O2",
+        "C01-L03-Q02-O3",
+        "C01-L03-Q02-O4"
+      ],
+      "correctIndex": 3,
+      "correctOptionId": "C01-L03-Q02-O4",
+      "feedback": "Accountability names the behaviour and changes it without requiring the affected person to provide reassurance.",
+      "critical": false,
+      "sourceIds": [
+        "A01",
+        "A02"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C02-L01-Q01",
+      "kind": "formative",
+      "moduleId": "C02",
+      "lessonId": "C02-L01",
+      "prompt": "Which question leaves the most room for an honest answer?",
+      "options": [
+        "You do want to, don't you?",
+        "What would feel comfortable for you?",
+        "Why can't you be less difficult?",
+        "Can you just agree this once?"
+      ],
+      "optionIds": [
+        "C02-L01-Q01-O1",
+        "C02-L01-Q01-O2",
+        "C02-L01-Q01-O3",
+        "C02-L01-Q01-O4"
+      ],
+      "correctIndex": 1,
+      "correctOptionId": "C02-L01-Q01-O2",
+      "feedback": "An open question invites the person's view without embedding the answer or criticising a possible refusal.",
+      "critical": false,
+      "sourceIds": [
+        "A03",
+        "A06"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C02-L01-Q02",
+      "kind": "formative",
+      "moduleId": "C02",
+      "lessonId": "C02-L01",
+      "prompt": "Why reflect back what you heard?",
+      "options": [
+        "To obtain permanent permission.",
+        "To prove the other person was unclear.",
+        "To remove their right to change their mind.",
+        "To check that you understand their meaning."
+      ],
+      "optionIds": [
+        "C02-L01-Q02-O1",
+        "C02-L01-Q02-O2",
+        "C02-L01-Q02-O3",
+        "C02-L01-Q02-O4"
+      ],
+      "correctIndex": 3,
+      "correctOptionId": "C02-L01-Q02-O4",
+      "feedback": "Reflection confirms understanding. It does not convert preferences or plans into future consent.",
+      "critical": false,
+      "sourceIds": [
+        "A03",
+        "A06"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C02-L02-Q01",
+      "kind": "formative",
+      "moduleId": "C02",
+      "lessonId": "C02-L02",
+      "prompt": "Which statement is a personal boundary?",
+      "options": [
+        "I am not willing to share my passwords.",
+        "You must hand over all your messages.",
+        "You cannot have friends I dislike.",
+        "You owe me agreement because I am upset."
+      ],
+      "optionIds": [
+        "C02-L02-Q01-O1",
+        "C02-L02-Q01-O2",
+        "C02-L02-Q01-O3",
+        "C02-L02-Q01-O4"
+      ],
+      "correctIndex": 0,
+      "correctOptionId": "C02-L02-Q01-O1",
+      "feedback": "A personal boundary states your participation and limits. It does not claim control over another person's independent choices.",
+      "critical": false,
+      "sourceIds": [
+        "A07",
+        "A32"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C02-L02-Q02",
+      "kind": "formative",
+      "moduleId": "C02",
+      "lessonId": "C02-L02",
+      "prompt": "After someone declines, an alternative activity is:",
+      "options": [
+        "A debt they must pay.",
+        "Required to avoid being rude.",
+        "Optional and must also be freely chosen.",
+        "Automatically agreed because the first idea was rejected."
+      ],
+      "optionIds": [
+        "C02-L02-Q02-O1",
+        "C02-L02-Q02-O2",
+        "C02-L02-Q02-O3",
+        "C02-L02-Q02-O4"
+      ],
+      "correctIndex": 2,
+      "correctOptionId": "C02-L02-Q02-O3",
+      "feedback": "No is a complete answer. Any alternative needs a separate willing agreement.",
+      "critical": false,
+      "sourceIds": [
+        "A07",
+        "A32"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C02-L03-Q01",
+      "kind": "formative",
+      "moduleId": "C02",
+      "lessonId": "C02-L03",
+      "prompt": "Consent to a live intimate video call automatically includes:",
+      "options": [
+        "Recording it for private use.",
+        "Sending a screenshot to a friend.",
+        "Creating an AI sexual image of the caller.",
+        "None of these; each requires separate agreement."
+      ],
+      "optionIds": [
+        "C02-L03-Q01-O1",
+        "C02-L03-Q01-O2",
+        "C02-L03-Q01-O3",
+        "C02-L03-Q01-O4"
+      ],
+      "correctIndex": 3,
+      "correctOptionId": "C02-L03-Q01-O4",
+      "feedback": "Participation, recording, sharing and synthetic representation are distinct decisions under the Academy's standard.",
+      "critical": false,
+      "sourceIds": [
+        "A08",
+        "A09"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C02-L03-Q02",
+      "kind": "formative",
+      "moduleId": "C02",
+      "lessonId": "C02-L03",
+      "prompt": "Which Australian service offers support and reporting for image-based abuse?",
+      "options": [
+        "A public class discussion board.",
+        "The eSafety Commissioner.",
+        "An anonymous image-sharing site.",
+        "A stranger offering guaranteed deletion for money."
+      ],
+      "optionIds": [
+        "C02-L03-Q02-O1",
+        "C02-L03-Q02-O2",
+        "C02-L03-Q02-O3",
+        "C02-L03-Q02-O4"
+      ],
+      "correctIndex": 1,
+      "correctOptionId": "C02-L03-Q02-O2",
+      "feedback": "eSafety provides an official reporting route and guidance. Avoid exposing the material further or relying on deletion guarantees.",
+      "critical": false,
+      "sourceIds": [
+        "A08",
+        "A09"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C03-L01-Q01",
+      "kind": "formative",
+      "moduleId": "C03",
+      "lessonId": "C03-L01",
+      "prompt": "Which statement is anatomically accurate?",
+      "options": [
+        "The vulva and vagina always mean the same structure.",
+        "Urine leaves the body through the cervix.",
+        "The vulva is external; the vagina is an internal canal.",
+        "The scrotum is a gland inside the bladder."
+      ],
+      "optionIds": [
+        "C03-L01-Q01-O1",
+        "C03-L01-Q01-O2",
+        "C03-L01-Q01-O3",
+        "C03-L01-Q01-O4"
+      ],
+      "correctIndex": 2,
+      "correctOptionId": "C03-L01-Q01-O3",
+      "feedback": "Distinguishing external and internal structures makes symptom descriptions and health information clearer.",
+      "critical": false,
+      "sourceIds": [
+        "A10",
+        "A11",
+        "A12",
+        "A13"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C03-L01-Q02",
+      "kind": "formative",
+      "moduleId": "C03",
+      "lessonId": "C03-L01",
+      "prompt": "What can anatomy alone tell you about a person's consent?",
+      "options": [
+        "Nothing; consent must be communicated for the particular interaction.",
+        "Which activities they prefer.",
+        "Whether they want sex today.",
+        "Whether a previous agreement still applies."
+      ],
+      "optionIds": [
+        "C03-L01-Q02-O1",
+        "C03-L01-Q02-O2",
+        "C03-L01-Q02-O3",
+        "C03-L01-Q02-O4"
+      ],
+      "correctIndex": 0,
+      "correctOptionId": "C03-L01-Q02-O1",
+      "feedback": "Anatomy does not establish preferences or permission. Ask the person and respect the answer.",
+      "critical": false,
+      "sourceIds": [
+        "A10",
+        "A11",
+        "A12",
+        "A13"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C03-L02-Q01",
+      "kind": "formative",
+      "moduleId": "C03",
+      "lessonId": "C03-L02",
+      "prompt": "Which statement best supports body neutrality?",
+      "options": [
+        "I must feel attractive at all times.",
+        "Only ideal-looking bodies deserve pleasure.",
+        "If I dislike a feature, I should ignore its health needs.",
+        "My body deserves care even when my feelings about it are mixed."
+      ],
+      "optionIds": [
+        "C03-L02-Q01-O1",
+        "C03-L02-Q01-O2",
+        "C03-L02-Q01-O3",
+        "C03-L02-Q01-O4"
+      ],
+      "correctIndex": 3,
+      "correctOptionId": "C03-L02-Q01-O4",
+      "feedback": "Care and respect do not depend on constant confidence or admiration of your appearance.",
+      "critical": false,
+      "sourceIds": [
+        "A12",
+        "A13",
+        "A14"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C03-L02-Q02",
+      "kind": "formative",
+      "moduleId": "C03",
+      "lessonId": "C03-L02",
+      "prompt": "Which concern is most useful to describe to a clinician?",
+      "options": [
+        "My body does not match a single online image.",
+        "I have a new change accompanied by discomfort.",
+        "Someone else's labia are a different shape.",
+        "A diagram looks more symmetrical than most bodies."
+      ],
+      "optionIds": [
+        "C03-L02-Q02-O1",
+        "C03-L02-Q02-O2",
+        "C03-L02-Q02-O3",
+        "C03-L02-Q02-O4"
+      ],
+      "correctIndex": 1,
+      "correctOptionId": "C03-L02-Q02-O2",
+      "feedback": "A new change with discomfort gives clinically relevant information. Comparisons alone cannot establish a diagnosis.",
+      "critical": false,
+      "sourceIds": [
+        "A12",
+        "A13",
+        "A14"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C03-L03-Q01",
+      "kind": "formative",
+      "moduleId": "C03",
+      "lessonId": "C03-L03",
+      "prompt": "Which statement about routine vaginal hygiene is correct?",
+      "options": [
+        "Internal douching is needed after every sexual interaction.",
+        "Perfume is needed to remove all natural scent.",
+        "Gentle external care is usually enough; routine internal douching is unnecessary.",
+        "Every change in discharge proves an STI."
+      ],
+      "optionIds": [
+        "C03-L03-Q01-O1",
+        "C03-L03-Q01-O2",
+        "C03-L03-Q01-O3",
+        "C03-L03-Q01-O4"
+      ],
+      "correctIndex": 2,
+      "correctOptionId": "C03-L03-Q01-O3",
+      "feedback": "The vagina cleans itself. Irritation or changes need appropriate assessment, not automatic use of internal cleansing products.",
+      "critical": false,
+      "sourceIds": [
+        "A12",
+        "A15",
+        "A16",
+        "A17",
+        "A18"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C03-L03-Q02",
+      "kind": "formative",
+      "moduleId": "C03",
+      "lessonId": "C03-L03",
+      "prompt": "Recurring sexual pain should be:",
+      "options": [
+        "Ignored if a partner is enjoying the activity.",
+        "Discussed with a clinician while unwanted or painful activity is stopped.",
+        "Used as proof that a relationship is serious.",
+        "Treated with whichever product a stranger recommends."
+      ],
+      "optionIds": [
+        "C03-L03-Q02-O1",
+        "C03-L03-Q02-O2",
+        "C03-L03-Q02-O3",
+        "C03-L03-Q02-O4"
+      ],
+      "correctIndex": 1,
+      "correctOptionId": "C03-L03-Q02-O2",
+      "feedback": "Pain deserves care. A clinician can help assess the cause and suitable options; you never owe continuation.",
+      "critical": false,
+      "sourceIds": [
+        "A12",
+        "A15",
+        "A16",
+        "A17",
+        "A18"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C04-L01-Q01",
+      "kind": "formative",
+      "moduleId": "C04",
+      "lessonId": "C04-L01",
+      "prompt": "Which statement correctly distinguishes desire, arousal and consent?",
+      "options": [
+        "Desire is interest, arousal is a bodily response, and consent is voluntary agreement.",
+        "Desire is agreement, arousal confirms permission, and consent is needed only before starting.",
+        "Desire must come first, arousal follows it, and consent then becomes a permanent choice.",
+        "Desire and arousal reveal someone's wishes, while consent matters only if both are absent."
+      ],
+      "optionIds": [
+        "C04-L01-Q01-O1",
+        "C04-L01-Q01-O2",
+        "C04-L01-Q01-O3",
+        "C04-L01-Q01-O4"
+      ],
+      "correctIndex": 0,
+      "correctOptionId": "C04-L01-Q01-O1",
+      "feedback": "Interest, bodily response and agreement can differ. None should be used as a shortcut for the others.",
+      "critical": false,
+      "sourceIds": [
+        "A01",
+        "A19",
+        "A20",
+        "A33"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C04-L01-Q02",
+      "kind": "formative",
+      "moduleId": "C04",
+      "lessonId": "C04-L01",
+      "prompt": "A persistent change in libido is distressing to you. What is a useful next step?",
+      "options": [
+        "Stop all prescribed medicine without advice.",
+        "Meet someone else's sexual-frequency target.",
+        "Discuss the change and relevant circumstances with a clinician.",
+        "Assume the cause from a social-media video."
+      ],
+      "optionIds": [
+        "C04-L01-Q02-O1",
+        "C04-L01-Q02-O2",
+        "C04-L01-Q02-O3",
+        "C04-L01-Q02-O4"
+      ],
+      "correctIndex": 2,
+      "correctOptionId": "C04-L01-Q02-O3",
+      "feedback": "Individual assessment can consider several contributing factors. It is more useful than self-diagnosis or unadvised medicine changes.",
+      "critical": false,
+      "sourceIds": [
+        "A01",
+        "A19",
+        "A20",
+        "A33"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C04-L02-Q01",
+      "kind": "formative",
+      "moduleId": "C04",
+      "lessonId": "C04-L02",
+      "prompt": "Which statement best fits a positive approach to sexual wellbeing?",
+      "options": [
+        "Every adult should want the same activities.",
+        "More intense experiences always mean more progress.",
+        "A particular bodily outcome proves consent.",
+        "Pleasure can matter while each person retains choice and boundaries."
+      ],
+      "optionIds": [
+        "C04-L02-Q01-O1",
+        "C04-L02-Q01-O2",
+        "C04-L02-Q01-O3",
+        "C04-L02-Q01-O4"
+      ],
+      "correctIndex": 3,
+      "correctOptionId": "C04-L02-Q01-O4",
+      "feedback": "A positive approach makes space for pleasure and autonomy together, without imposing a universal script.",
+      "critical": false,
+      "sourceIds": [
+        "A04",
+        "A18",
+        "A21"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C04-L02-Q02",
+      "kind": "formative",
+      "moduleId": "C04",
+      "lessonId": "C04-L02",
+      "prompt": "Reading about an activity means:",
+      "options": [
+        "You have consented to try it.",
+        "You are learning; participation remains a separate decision.",
+        "You must discuss your private preferences publicly.",
+        "You owe a partner an explanation for declining it."
+      ],
+      "optionIds": [
+        "C04-L02-Q02-O1",
+        "C04-L02-Q02-O2",
+        "C04-L02-Q02-O3",
+        "C04-L02-Q02-O4"
+      ],
+      "correctIndex": 1,
+      "correctOptionId": "C04-L02-Q02-O2",
+      "feedback": "Curiosity, fantasy, education and participation are separate. Learning never creates a sexual obligation.",
+      "critical": false,
+      "sourceIds": [
+        "A04",
+        "A18",
+        "A21"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C04-L03-Q01",
+      "kind": "formative",
+      "moduleId": "C04",
+      "lessonId": "C04-L03",
+      "prompt": "Which statement about this lesson is correct?",
+      "options": [
+        "Every learner must practise masturbation.",
+        "Not masturbating proves a health problem.",
+        "Solo sexual activity is optional; the lesson requires no sexual practice.",
+        "A product purchase is needed to complete the module."
+      ],
+      "optionIds": [
+        "C04-L03-Q01-O1",
+        "C04-L03-Q01-O2",
+        "C04-L03-Q01-O3",
+        "C04-L03-Q01-O4"
+      ],
+      "correctIndex": 2,
+      "correctOptionId": "C04-L03-Q01-O3",
+      "feedback": "Adults make their own choices. The course teaches literacy and decision-making without compulsory sexual behaviour.",
+      "critical": false,
+      "sourceIds": [
+        "A22",
+        "A02"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C04-L03-Q02",
+      "kind": "formative",
+      "moduleId": "C04",
+      "lessonId": "C04-L03",
+      "prompt": "When does another person's consent become relevant?",
+      "options": [
+        "Only when a photograph includes their face.",
+        "Only when they are a romantic partner.",
+        "Never if the activity started privately.",
+        "When they are asked or made to witness, receive or participate in sexual activity or media."
+      ],
+      "optionIds": [
+        "C04-L03-Q02-O1",
+        "C04-L03-Q02-O2",
+        "C04-L03-Q02-O3",
+        "C04-L03-Q02-O4"
+      ],
+      "correctIndex": 3,
+      "correctOptionId": "C04-L03-Q02-O4",
+      "feedback": "A private choice cannot be used to create an unwilling audience. Involving another person requires their agreement.",
+      "critical": false,
+      "sourceIds": [
+        "A22",
+        "A02"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C05-L01-Q01",
+      "kind": "formative",
+      "moduleId": "C05",
+      "lessonId": "C05-L01",
+      "prompt": "Which approach offers a realistic understanding of prevention?",
+      "options": [
+        "A familiar partner cannot have an STI.",
+        "A barrier guarantees zero risk for every infection.",
+        "A relationship label replaces testing and communication.",
+        "Combine suitable measures while recognising that no plan removes every risk."
+      ],
+      "optionIds": [
+        "C05-L01-Q01-O1",
+        "C05-L01-Q01-O2",
+        "C05-L01-Q01-O3",
+        "C05-L01-Q01-O4"
+      ],
+      "correctIndex": 3,
+      "correctOptionId": "C05-L01-Q01-O4",
+      "feedback": "Prevention is layered and specific. Communication, suitable barriers, testing and vaccination address different parts of risk.",
+      "critical": false,
+      "sourceIds": [
+        "A23",
+        "A24",
+        "A34",
+        "R17"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C05-L01-Q02",
+      "kind": "formative",
+      "moduleId": "C05",
+      "lessonId": "C05-L01",
+      "prompt": "Which barrier-use statement is correct?",
+      "options": [
+        "Using an internal and external condom together always improves protection.",
+        "Use a new barrier as directed and follow instructions about lubricant compatibility.",
+        "A barrier can be reused if it looks undamaged.",
+        "A previous agreement allows one partner to remove a barrier without checking."
+      ],
+      "optionIds": [
+        "C05-L01-Q02-O1",
+        "C05-L01-Q02-O2",
+        "C05-L01-Q02-O3",
+        "C05-L01-Q02-O4"
+      ],
+      "correctIndex": 1,
+      "correctOptionId": "C05-L01-Q02-O2",
+      "feedback": "Correct, single-use application and compatible products matter. Barrier conditions are also part of the consent agreement.",
+      "critical": false,
+      "sourceIds": [
+        "A23",
+        "A24",
+        "A34",
+        "R17"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C05-L02-Q01",
+      "kind": "formative",
+      "moduleId": "C05",
+      "lessonId": "C05-L02",
+      "prompt": "Why can someone need STI testing despite feeling well?",
+      "options": [
+        "Many STIs can have no noticeable symptoms.",
+        "Only visible symptoms matter.",
+        "Testing is only useful outside relationships.",
+        "Symptoms always appear the next day."
+      ],
+      "optionIds": [
+        "C05-L02-Q01-O1",
+        "C05-L02-Q01-O2",
+        "C05-L02-Q01-O3",
+        "C05-L02-Q01-O4"
+      ],
+      "correctIndex": 0,
+      "correctOptionId": "C05-L02-Q01-O1",
+      "feedback": "Absence of symptoms does not reliably rule out infection. Appropriate testing helps establish useful information.",
+      "critical": false,
+      "sourceIds": [
+        "A25",
+        "A26"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C05-L02-Q02",
+      "kind": "formative",
+      "moduleId": "C05",
+      "lessonId": "C05-L02",
+      "prompt": "Which phrase is most informative and least stigmatising?",
+      "options": [
+        "I am clean, so no more questions are needed.",
+        "People like us cannot get infections.",
+        "My tests on this date were negative, and I am checking whether follow-up is needed.",
+        "A positive result proves who was at fault."
+      ],
+      "optionIds": [
+        "C05-L02-Q02-O1",
+        "C05-L02-Q02-O2",
+        "C05-L02-Q02-O3",
+        "C05-L02-Q02-O4"
+      ],
+      "correctIndex": 2,
+      "correctOptionId": "C05-L02-Q02-O3",
+      "feedback": "Dated, specific information is useful. Moral labels and assumptions about blame do not help prevention or treatment.",
+      "critical": false,
+      "sourceIds": [
+        "A25",
+        "A26"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C05-L03-Q01",
+      "kind": "formative",
+      "moduleId": "C05",
+      "lessonId": "C05-L03",
+      "prompt": "When should someone seek advice after a possible exposure needing HIV PEP?",
+      "options": [
+        "Only after a positive test.",
+        "At the next routine annual appointment.",
+        "Only if symptoms develop.",
+        "As soon as possible; PEP needs to start within 72 hours."
+      ],
+      "optionIds": [
+        "C05-L03-Q01-O1",
+        "C05-L03-Q01-O2",
+        "C05-L03-Q01-O3",
+        "C05-L03-Q01-O4"
+      ],
+      "correctIndex": 3,
+      "correctOptionId": "C05-L03-Q01-O4",
+      "feedback": "PEP is time-sensitive prevention. Seek urgent assessment without waiting for symptoms or test results.",
+      "critical": false,
+      "sourceIds": [
+        "A27",
+        "A28",
+        "A29",
+        "A30",
+        "A34"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C05-L03-Q02",
+      "kind": "formative",
+      "moduleId": "C05",
+      "lessonId": "C05-L03",
+      "prompt": "Which statement about emergency contraception is correct?",
+      "options": [
+        "Every option has the same time window and suitability.",
+        "It addresses pregnancy risk; it does not prevent STIs.",
+        "It removes the need for any follow-up advice.",
+        "It can be selected for everyone without considering medicines or timing."
+      ],
+      "optionIds": [
+        "C05-L03-Q02-O1",
+        "C05-L03-Q02-O2",
+        "C05-L03-Q02-O3",
+        "C05-L03-Q02-O4"
+      ],
+      "correctIndex": 1,
+      "correctOptionId": "C05-L03-Q02-O2",
+      "feedback": "Emergency contraception addresses pregnancy risk. Individual timing, suitability and follow-up still need consideration.",
+      "critical": false,
+      "sourceIds": [
+        "A27",
+        "A28",
+        "A29",
+        "A30",
+        "A34"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C06-L01-Q01",
+      "kind": "formative",
+      "moduleId": "C06",
+      "lessonId": "C06-L01",
+      "prompt": "What is the main purpose of a relationship agreement?",
+      "options": [
+        "To create permanent sexual consent.",
+        "To prevent anyone ever changing their mind.",
+        "To make voluntary commitments and expectations clear.",
+        "To give one adult authority over everyone else."
+      ],
+      "optionIds": [
+        "C06-L01-Q01-O1",
+        "C06-L01-Q01-O2",
+        "C06-L01-Q01-O3",
+        "C06-L01-Q01-O4"
+      ],
+      "correctIndex": 2,
+      "correctOptionId": "C06-L01-Q01-O3",
+      "feedback": "Agreements improve understanding and coordination. They cannot remove autonomy or guarantee future participation.",
+      "critical": false,
+      "sourceIds": [
+        "A07",
+        "A01"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C06-L01-Q02",
+      "kind": "formative",
+      "moduleId": "C06",
+      "lessonId": "C06-L01",
+      "prompt": "In a relationship involving several adults, whose consent is needed for an interaction?",
+      "options": [
+        "Every adult who would participate.",
+        "Only the person with the longest relationship history.",
+        "Only the person organising the meeting.",
+        "Whichever person signs a shared document."
+      ],
+      "optionIds": [
+        "C06-L01-Q02-O1",
+        "C06-L01-Q02-O2",
+        "C06-L01-Q02-O3",
+        "C06-L01-Q02-O4"
+      ],
+      "correctIndex": 0,
+      "correctOptionId": "C06-L01-Q02-O1",
+      "feedback": "Each person decides their own participation. Another adult cannot supply permission on their behalf.",
+      "critical": false,
+      "sourceIds": [
+        "A07",
+        "A01"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C06-L02-Q01",
+      "kind": "formative",
+      "moduleId": "C06",
+      "lessonId": "C06-L02",
+      "prompt": "Which response to jealousy preserves personal responsibility?",
+      "options": [
+        "My feeling proves you must obey me.",
+        "I can explain my feeling and make a request you are free to consider.",
+        "I am entitled to inspect your private messages.",
+        "You must agree to sex to reassure me."
+      ],
+      "optionIds": [
+        "C06-L02-Q01-O1",
+        "C06-L02-Q01-O2",
+        "C06-L02-Q01-O3",
+        "C06-L02-Q01-O4"
+      ],
+      "correctIndex": 1,
+      "correctOptionId": "C06-L02-Q01-O2",
+      "feedback": "Feelings can guide a discussion without becoming commands or sexual obligations.",
+      "critical": false,
+      "sourceIds": [
+        "A31",
+        "A32"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C06-L02-Q02",
+      "kind": "formative",
+      "moduleId": "C06",
+      "lessonId": "C06-L02",
+      "prompt": "A proposed change to an agreement should normally be:",
+      "options": [
+        "Assumed from silence.",
+        "Implemented secretly and explained only if discovered.",
+        "Discussed before acting, with consent from those affected.",
+        "Decided by the person who feels most strongly."
+      ],
+      "optionIds": [
+        "C06-L02-Q02-O1",
+        "C06-L02-Q02-O2",
+        "C06-L02-Q02-O3",
+        "C06-L02-Q02-O4"
+      ],
+      "correctIndex": 2,
+      "correctOptionId": "C06-L02-Q02-O3",
+      "feedback": "Advance discussion supports informed choices. Strong feelings do not supply other people's agreement.",
+      "critical": false,
+      "sourceIds": [
+        "A31",
+        "A32"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C06-L03-Q01",
+      "kind": "formative",
+      "moduleId": "C06",
+      "lessonId": "C06-L03",
+      "prompt": "What is a useful first step when offering care after an interaction?",
+      "options": [
+        "Ask what kind of support or space the person wants.",
+        "Assume everyone wants to be touched.",
+        "Demand a full account of their feelings.",
+        "Require reassurance that you did everything correctly."
+      ],
+      "optionIds": [
+        "C06-L03-Q01-O1",
+        "C06-L03-Q01-O2",
+        "C06-L03-Q01-O3",
+        "C06-L03-Q01-O4"
+      ],
+      "correctIndex": 0,
+      "correctOptionId": "C06-L03-Q01-O1",
+      "feedback": "Care is more responsive when it begins with the person's preferences and preserves their ability to decline.",
+      "critical": false,
+      "sourceIds": [
+        "A07",
+        "A08",
+        "A31"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C06-L03-Q02",
+      "kind": "formative",
+      "moduleId": "C06",
+      "lessonId": "C06-L03",
+      "prompt": "Which statement about an ending is correct?",
+      "options": [
+        "Privacy no longer matters once the relationship ends.",
+        "A final sexual interaction is a reasonable debt.",
+        "The person ending things must always meet face to face.",
+        "Boundaries, privacy and safety continue to matter."
+      ],
+      "optionIds": [
+        "C06-L03-Q02-O1",
+        "C06-L03-Q02-O2",
+        "C06-L03-Q02-O3",
+        "C06-L03-Q02-O4"
+      ],
+      "correctIndex": 3,
+      "correctOptionId": "C06-L03-Q02-O4",
+      "feedback": "No one owes a final meeting or intimacy. Practical decisions should respect privacy and account for safety.",
+      "critical": false,
+      "sourceIds": [
+        "A07",
+        "A08",
+        "A31"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C07-L01-Q01",
+      "kind": "formative",
+      "moduleId": "C07",
+      "lessonId": "C07-L01",
+      "prompt": "Which statement best distinguishes identity from consent?",
+      "options": [
+        "An identity label authorises activities typical of that identity.",
+        "A label can describe someone, but consent still concerns a specific present choice.",
+        "Consent is only needed when people have different identities.",
+        "People must explain their identity before setting boundaries."
+      ],
+      "optionIds": [
+        "C07-L01-Q01-O1",
+        "C07-L01-Q01-O2",
+        "C07-L01-Q01-O3",
+        "C07-L01-Q01-O4"
+      ],
+      "correctIndex": 1,
+      "correctOptionId": "C07-L01-Q01-O2",
+      "feedback": "Identity never supplies permission. Each person decides what, if anything, they want to do.",
+      "critical": false,
+      "sourceIds": [
+        "B01",
+        "B02"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C07-L01-Q02",
+      "kind": "formative",
+      "moduleId": "C07",
+      "lessonId": "C07-L01",
+      "prompt": "You accidentally use the wrong pronoun. What is the most constructive response?",
+      "options": [
+        "Explain at length why the mistake was understandable.",
+        "Ask the person to prove the pronoun is correct.",
+        "Stop speaking to avoid making further mistakes.",
+        "Briefly correct yourself, use the right pronoun and continue respectfully."
+      ],
+      "optionIds": [
+        "C07-L01-Q02-O1",
+        "C07-L01-Q02-O2",
+        "C07-L01-Q02-O3",
+        "C07-L01-Q02-O4"
+      ],
+      "correctIndex": 3,
+      "correctOptionId": "C07-L01-Q02-O4",
+      "feedback": "A brief correction keeps attention on the person and avoids making them responsible for your reassurance.",
+      "critical": false,
+      "sourceIds": [
+        "B01",
+        "B02"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C07-L02-Q01",
+      "kind": "formative",
+      "moduleId": "C07",
+      "lessonId": "C07-L02",
+      "prompt": "What does the term intersex refer to?",
+      "options": [
+        "One particular sexual orientation.",
+        "A requirement to use non-binary pronouns.",
+        "Innate variations of sex characteristics, across a diverse population.",
+        "A preference for a particular relationship structure."
+      ],
+      "optionIds": [
+        "C07-L02-Q01-O1",
+        "C07-L02-Q01-O2",
+        "C07-L02-Q01-O3",
+        "C07-L02-Q01-O4"
+      ],
+      "correctIndex": 2,
+      "correctOptionId": "C07-L02-Q01-O3",
+      "feedback": "Intersex concerns sex characteristics. It does not determine someone's gender, orientation or relationship preferences.",
+      "critical": false,
+      "sourceIds": [
+        "B02",
+        "B03"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C07-L02-Q02",
+      "kind": "formative",
+      "moduleId": "C07",
+      "lessonId": "C07-L02",
+      "prompt": "Which response respects a body boundary?",
+      "options": [
+        "Accept the boundary without demanding a medical explanation.",
+        "Ask repeatedly until the reason becomes clear.",
+        "Assume the boundary expires once someone feels comfortable.",
+        "Share the boundary with friends to ask for their opinion."
+      ],
+      "optionIds": [
+        "C07-L02-Q02-O1",
+        "C07-L02-Q02-O2",
+        "C07-L02-Q02-O3",
+        "C07-L02-Q02-O4"
+      ],
+      "correctIndex": 0,
+      "correctOptionId": "C07-L02-Q02-O1",
+      "feedback": "People can set limits without explaining their bodies or histories. Privacy remains theirs to control.",
+      "critical": false,
+      "sourceIds": [
+        "B02",
+        "B03"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C07-L03-Q01",
+      "kind": "formative",
+      "moduleId": "C07",
+      "lessonId": "C07-L03",
+      "prompt": "Which is the strongest practical sign of affirming care?",
+      "options": [
+        "The service never asks any health questions.",
+        "The service listens respectfully, explains relevant questions and protects privacy.",
+        "The practitioner assumes everyone with the same identity has the same needs.",
+        "A logo alone guarantees an appropriate experience."
+      ],
+      "optionIds": [
+        "C07-L03-Q01-O1",
+        "C07-L03-Q01-O2",
+        "C07-L03-Q01-O3",
+        "C07-L03-Q01-O4"
+      ],
+      "correctIndex": 1,
+      "correctOptionId": "C07-L03-Q01-O2",
+      "feedback": "Affirming care is shown through respectful behaviour, relevant clinical questions and privacy practices.",
+      "critical": false,
+      "sourceIds": [
+        "B01",
+        "B04"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C07-L03-Q02",
+      "kind": "formative",
+      "moduleId": "C07",
+      "lessonId": "C07-L03",
+      "prompt": "What does QLife provide?",
+      "options": [
+        "A guarantee of immediate emergency response.",
+        "A mandatory identity assessment.",
+        "Australian LGBTIQ+ peer support and referral, with current access details on its website.",
+        "A substitute for every form of clinical treatment."
+      ],
+      "optionIds": [
+        "C07-L03-Q02-O1",
+        "C07-L03-Q02-O2",
+        "C07-L03-Q02-O3",
+        "C07-L03-Q02-O4"
+      ],
+      "correctIndex": 2,
+      "correctOptionId": "C07-L03-Q02-O3",
+      "feedback": "QLife offers peer support and referral. Emergency care and individual clinical treatment have different functions.",
+      "critical": false,
+      "sourceIds": [
+        "B01",
+        "B04"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C08-L01-Q01",
+      "kind": "formative",
+      "moduleId": "C08",
+      "lessonId": "C08-L01",
+      "prompt": "What is the purpose of supported decision-making in this lesson?",
+      "options": [
+        "Helping an adult understand and communicate their own decision.",
+        "Making a decision for any adult who uses a communication aid.",
+        "Ensuring the adult eventually agrees.",
+        "Removing the need to check consent."
+      ],
+      "optionIds": [
+        "C08-L01-Q01-O1",
+        "C08-L01-Q01-O2",
+        "C08-L01-Q01-O3",
+        "C08-L01-Q01-O4"
+      ],
+      "correctIndex": 0,
+      "correctOptionId": "C08-L01-Q01-O1",
+      "feedback": "Support should increase a person's control over their decision, including the choice to decline.",
+      "critical": false,
+      "sourceIds": [
+        "B05",
+        "B06"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C08-L01-Q02",
+      "kind": "formative",
+      "moduleId": "C08",
+      "lessonId": "C08-L01",
+      "prompt": "What should happen if consent remains unclear after communication support?",
+      "options": [
+        "Assume consent because the person has not objected.",
+        "Ask their friend to decide.",
+        "Proceed and ask again afterward.",
+        "Pause; do not proceed, and seek suitable guidance where needed."
+      ],
+      "optionIds": [
+        "C08-L01-Q02-O1",
+        "C08-L01-Q02-O2",
+        "C08-L01-Q02-O3",
+        "C08-L01-Q02-O4"
+      ],
+      "correctIndex": 3,
+      "correctOptionId": "C08-L01-Q02-O4",
+      "feedback": "Uncertainty is a reason to stop, not a reason to substitute someone else's permission.",
+      "critical": false,
+      "sourceIds": [
+        "B05",
+        "B06"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C08-L02-Q01",
+      "kind": "formative",
+      "moduleId": "C08",
+      "lessonId": "C08-L02",
+      "prompt": "Which statement avoids stereotyping?",
+      "options": [
+        "All autistic people dislike touch.",
+        "Written communication always means someone is uncomfortable.",
+        "Ask each person which communication and sensory arrangements work for them.",
+        "A diagnosis tells you whether someone wants a relationship."
+      ],
+      "optionIds": [
+        "C08-L02-Q01-O1",
+        "C08-L02-Q01-O2",
+        "C08-L02-Q01-O3",
+        "C08-L02-Q01-O4"
+      ],
+      "correctIndex": 2,
+      "correctOptionId": "C08-L02-Q01-O3",
+      "feedback": "Individual preferences matter. A diagnostic label does not prescribe a person's needs or interests.",
+      "critical": false,
+      "sourceIds": [
+        "B05",
+        "B07",
+        "B19"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C08-L02-Q02",
+      "kind": "formative",
+      "moduleId": "C08",
+      "lessonId": "C08-L02",
+      "prompt": "A medicine seems to be affecting sexual wellbeing. What is the appropriate next step?",
+      "options": [
+        "Stop it whenever intimacy is planned.",
+        "Discuss the concern with a qualified prescriber before changing treatment.",
+        "Use a partner's medicine instead.",
+        "Ignore the concern because it is not a legitimate health topic."
+      ],
+      "optionIds": [
+        "C08-L02-Q02-O1",
+        "C08-L02-Q02-O2",
+        "C08-L02-Q02-O3",
+        "C08-L02-Q02-O4"
+      ],
+      "correctIndex": 1,
+      "correctOptionId": "C08-L02-Q02-O2",
+      "feedback": "Sexual wellbeing is a valid clinical concern. Treatment changes require individual medical advice.",
+      "critical": false,
+      "sourceIds": [
+        "B05",
+        "B07",
+        "B19"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C08-L03-Q01",
+      "kind": "formative",
+      "moduleId": "C08",
+      "lessonId": "C08-L03",
+      "prompt": "Which statement about menopause is inclusive and accurate?",
+      "options": [
+        "Only people who identify as women can experience it.",
+        "Everyone experiences identical symptoms at the same age.",
+        "A course can decide whether someone should stop hormone therapy.",
+        "Some trans and non-binary people experience menopause; individual biology and care affect the experience."
+      ],
+      "optionIds": [
+        "C08-L03-Q01-O1",
+        "C08-L03-Q01-O2",
+        "C08-L03-Q01-O3",
+        "C08-L03-Q01-O4"
+      ],
+      "correctIndex": 3,
+      "correctOptionId": "C08-L03-Q01-O4",
+      "feedback": "Menopause information should be relevant to anatomy and individual care without assuming gender.",
+      "critical": false,
+      "sourceIds": [
+        "B08",
+        "B09",
+        "B05",
+        "R18"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C08-L03-Q02",
+      "kind": "formative",
+      "moduleId": "C08",
+      "lessonId": "C08-L03",
+      "prompt": "What establishes readiness for sex after birth?",
+      "options": [
+        "Individual willingness and recovery, informed by appropriate clinical advice.",
+        "A partner's preferred timetable.",
+        "Completion of an online course.",
+        "A universal deadline that applies regardless of symptoms."
+      ],
+      "optionIds": [
+        "C08-L03-Q02-O1",
+        "C08-L03-Q02-O2",
+        "C08-L03-Q02-O3",
+        "C08-L03-Q02-O4"
+      ],
+      "correctIndex": 0,
+      "correctOptionId": "C08-L03-Q02-O1",
+      "feedback": "Readiness is individual. Nobody owes sexual activity because a particular number of weeks has passed.",
+      "critical": false,
+      "sourceIds": [
+        "B08",
+        "B09",
+        "B05",
+        "R18"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C09-L01-Q01",
+      "kind": "formative",
+      "moduleId": "C09",
+      "lessonId": "C09-L01",
+      "prompt": "What does agreeing to discuss a sexual interest authorise?",
+      "options": [
+        "Any activity associated with the interest.",
+        "Recording the discussion for later use.",
+        "The agreed conversation, while either person may still pause or stop.",
+        "A surprise demonstration afterward."
+      ],
+      "optionIds": [
+        "C09-L01-Q01-O1",
+        "C09-L01-Q01-O2",
+        "C09-L01-Q01-O3",
+        "C09-L01-Q01-O4"
+      ],
+      "correctIndex": 2,
+      "correctOptionId": "C09-L01-Q01-O3",
+      "feedback": "Consent to one kind of interaction does not automatically extend to another.",
+      "critical": false,
+      "sourceIds": [
+        "B10",
+        "B11"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C09-L01-Q02",
+      "kind": "formative",
+      "moduleId": "C09",
+      "lessonId": "C09-L01",
+      "prompt": "Which response best fits an open-minded, consent-focused environment?",
+      "options": [
+        "Respect curiosity and refusal without ranking people by adventurousness.",
+        "Encourage everyone to try each interest once.",
+        "Treat a firm limit as evidence of immaturity.",
+        "Require learners to disclose fantasies to demonstrate engagement."
+      ],
+      "optionIds": [
+        "C09-L01-Q02-O1",
+        "C09-L01-Q02-O2",
+        "C09-L01-Q02-O3",
+        "C09-L01-Q02-O4"
+      ],
+      "correctIndex": 0,
+      "correctOptionId": "C09-L01-Q02-O1",
+      "feedback": "Openness means making room for autonomous choices. Participation and personal disclosure are not learning requirements.",
+      "critical": false,
+      "sourceIds": [
+        "B10",
+        "B11"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C09-L02-Q01",
+      "kind": "formative",
+      "moduleId": "C09",
+      "lessonId": "C09-L02",
+      "prompt": "Which statement about negotiation is correct?",
+      "options": [
+        "A completed checklist prevents later withdrawal.",
+        "Negotiation can end in no activity, and agreement can still change afterward.",
+        "An experienced person may decide a beginner's limits.",
+        "A signed note replaces checking in."
+      ],
+      "optionIds": [
+        "C09-L02-Q01-O1",
+        "C09-L02-Q01-O2",
+        "C09-L02-Q01-O3",
+        "C09-L02-Q01-O4"
+      ],
+      "correctIndex": 1,
+      "correctOptionId": "C09-L02-Q01-O2",
+      "feedback": "Negotiation supports understanding. It never removes anyone's right to change their mind.",
+      "critical": false,
+      "sourceIds": [
+        "B10",
+        "B11",
+        "B21"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C09-L02-Q02",
+      "kind": "formative",
+      "moduleId": "C09",
+      "lessonId": "C09-L02",
+      "prompt": "Which situation most clearly requires examining real-world pressure?",
+      "options": [
+        "Both people have time to consider an invitation.",
+        "Either person can decline without consequences.",
+        "Someone asks for clarification of an unfamiliar word.",
+        "Refusing a request could threaten someone's housing or essential support."
+      ],
+      "optionIds": [
+        "C09-L02-Q02-O1",
+        "C09-L02-Q02-O2",
+        "C09-L02-Q02-O3",
+        "C09-L02-Q02-O4"
+      ],
+      "correctIndex": 3,
+      "correctOptionId": "C09-L02-Q02-O4",
+      "feedback": "Dependence and threatened consequences can undermine a voluntary choice, even when the interaction is described as a role.",
+      "critical": false,
+      "sourceIds": [
+        "B10",
+        "B11",
+        "B21"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C09-L03-Q01",
+      "kind": "formative",
+      "moduleId": "C09",
+      "lessonId": "C09-L03",
+      "prompt": "Which statement about strangulation or neck compression is correct?",
+      "options": [
+        "It can be made harmless through an online checklist.",
+        "No visible mark means no injury.",
+        "It carries serious risk, including death, and should be avoided.",
+        "A trusted partner removes the medical risk."
+      ],
+      "optionIds": [
+        "C09-L03-Q01-O1",
+        "C09-L03-Q01-O2",
+        "C09-L03-Q01-O3",
+        "C09-L03-Q01-O4"
+      ],
+      "correctIndex": 2,
+      "correctOptionId": "C09-L03-Q01-O3",
+      "feedback": "Neck compression can cause serious internal injury. Consent and trust do not eliminate the danger.",
+      "critical": false,
+      "sourceIds": [
+        "B12",
+        "B10",
+        "B20",
+        "B21"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C09-L03-Q02",
+      "kind": "formative",
+      "moduleId": "C09",
+      "lessonId": "C09-L03",
+      "prompt": "What is a sound approach to aftercare?",
+      "options": [
+        "Ask what support or space is wanted and respect the answer.",
+        "Require physical affection to prove everyone feels okay.",
+        "Treat it as permission for everything that happened earlier.",
+        "Insist on a detailed emotional disclosure before someone leaves."
+      ],
+      "optionIds": [
+        "C09-L03-Q02-O1",
+        "C09-L03-Q02-O2",
+        "C09-L03-Q02-O3",
+        "C09-L03-Q02-O4"
+      ],
+      "correctIndex": 0,
+      "correctOptionId": "C09-L03-Q02-O1",
+      "feedback": "Care remains consensual. It does not require contact, disclosure or forgiveness.",
+      "critical": false,
+      "sourceIds": [
+        "B12",
+        "B10",
+        "B20",
+        "B21"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C10-L01-Q01",
+      "kind": "formative",
+      "moduleId": "C10",
+      "lessonId": "C10-L01",
+      "prompt": "What does sending someone an intimate image permit them to do?",
+      "options": [
+        "Forward it to close friends.",
+        "Only use it within the permission actually given; onward sharing is not automatically allowed.",
+        "Post it after the relationship ends.",
+        "Use it to generate new sexual imagery without asking."
+      ],
+      "optionIds": [
+        "C10-L01-Q01-O1",
+        "C10-L01-Q01-O2",
+        "C10-L01-Q01-O3",
+        "C10-L01-Q01-O4"
+      ],
+      "correctIndex": 1,
+      "correctOptionId": "C10-L01-Q01-O2",
+      "feedback": "Private sharing does not transfer control over all future uses or audiences.",
+      "critical": false,
+      "sourceIds": [
+        "B13",
+        "B14"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C10-L01-Q02",
+      "kind": "formative",
+      "moduleId": "C10",
+      "lessonId": "C10-L01",
+      "prompt": "Which is the most responsible assumption about disappearing messages?",
+      "options": [
+        "They guarantee that no copy exists.",
+        "They replace consent to receive an image.",
+        "They make all further sharing impossible.",
+        "Their limits must be checked; they should not be treated as a guarantee against copying."
+      ],
+      "optionIds": [
+        "C10-L01-Q02-O1",
+        "C10-L01-Q02-O2",
+        "C10-L01-Q02-O3",
+        "C10-L01-Q02-O4"
+      ],
+      "correctIndex": 3,
+      "correctOptionId": "C10-L01-Q02-O4",
+      "feedback": "App features can reduce some risks, but recipients or other systems may retain content.",
+      "critical": false,
+      "sourceIds": [
+        "B13",
+        "B14"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C10-L02-Q01",
+      "kind": "formative",
+      "moduleId": "C10",
+      "lessonId": "C10-L02",
+      "prompt": "Which is an appropriate response to sexual extortion?",
+      "options": [
+        "Do not pay or send more intimate content; stop contact and seek official help.",
+        "Negotiate by offering a different image.",
+        "Forward the image widely to explain the problem.",
+        "Assume there is no help if the image was originally sent voluntarily."
+      ],
+      "optionIds": [
+        "C10-L02-Q01-O1",
+        "C10-L02-Q01-O2",
+        "C10-L02-Q01-O3",
+        "C10-L02-Q01-O4"
+      ],
+      "correctIndex": 0,
+      "correctOptionId": "C10-L02-Q01-O1",
+      "feedback": "eSafety recommends not paying or providing further material. Voluntary initial sharing does not excuse later blackmail.",
+      "critical": false,
+      "sourceIds": [
+        "B15",
+        "B25",
+        "B20",
+        "B26"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C10-L02-Q02",
+      "kind": "formative",
+      "moduleId": "C10",
+      "lessonId": "C10-L02",
+      "prompt": "A friend discloses image-based abuse. What is the most supportive first response?",
+      "options": [
+        "Ask why they sent an image in the first place.",
+        "Demand to inspect the image.",
+        "Listen without blame and ask what support they want.",
+        "Post about it publicly to warn others without asking."
+      ],
+      "optionIds": [
+        "C10-L02-Q02-O1",
+        "C10-L02-Q02-O2",
+        "C10-L02-Q02-O3",
+        "C10-L02-Q02-O4"
+      ],
+      "correctIndex": 2,
+      "correctOptionId": "C10-L02-Q02-O3",
+      "feedback": "Belief, privacy and choice help restore control. Blame and unnecessary exposure can add harm.",
+      "critical": false,
+      "sourceIds": [
+        "B15",
+        "B25",
+        "B20",
+        "B26"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C10-L03-Q01",
+      "kind": "formative",
+      "moduleId": "C10",
+      "lessonId": "C10-L03",
+      "prompt": "Which question is most useful when evaluating a sexual health claim online?",
+      "options": [
+        "Does the presenter look confident?",
+        "Is the clip popular?",
+        "Does the claim promise an immediate result?",
+        "What reliable evidence supports the claim, and what are its limits?"
+      ],
+      "optionIds": [
+        "C10-L03-Q01-O1",
+        "C10-L03-Q01-O2",
+        "C10-L03-Q01-O3",
+        "C10-L03-Q01-O4"
+      ],
+      "correctIndex": 3,
+      "correctOptionId": "C10-L03-Q01-O4",
+      "feedback": "Evidence, relevance and limitations are better guides than confidence, popularity or promises.",
+      "critical": false,
+      "sourceIds": [
+        "B16",
+        "B11"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C10-L03-Q02",
+      "kind": "formative",
+      "moduleId": "C10",
+      "lessonId": "C10-L03",
+      "prompt": "What can a sexual performance reliably tell you about a partner?",
+      "options": [
+        "Which activities the partner must enjoy.",
+        "It cannot establish that partner's preferences or consent.",
+        "How long the partner should respond.",
+        "Whether the partner needs to change their boundaries."
+      ],
+      "optionIds": [
+        "C10-L03-Q02-O1",
+        "C10-L03-Q02-O2",
+        "C10-L03-Q02-O3",
+        "C10-L03-Q02-O4"
+      ],
+      "correctIndex": 1,
+      "correctOptionId": "C10-L03-Q02-O2",
+      "feedback": "Partners are individuals. Ask rather than assigning expectations from entertainment.",
+      "critical": false,
+      "sourceIds": [
+        "B16",
+        "B11"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C11-L01-Q01",
+      "kind": "formative",
+      "moduleId": "C11",
+      "lessonId": "C11-L01",
+      "prompt": "What is the most appropriate response to painful sexual activity?",
+      "options": [
+        "Assume it is unavoidable.",
+        "Use a general online remedy before considering the cause.",
+        "Pause or stop and seek appropriate assessment for ongoing or concerning pain.",
+        "Finish first so the partner is not disappointed."
+      ],
+      "optionIds": [
+        "C11-L01-Q01-O1",
+        "C11-L01-Q01-O2",
+        "C11-L01-Q01-O3",
+        "C11-L01-Q01-O4"
+      ],
+      "correctIndex": 2,
+      "correctOptionId": "C11-L01-Q01-O3",
+      "feedback": "Stopping protects choice and comfort. A clinician can assess causes and suitable care.",
+      "critical": false,
+      "sourceIds": [
+        "B17",
+        "B24"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C11-L01-Q02",
+      "kind": "formative",
+      "moduleId": "C11",
+      "lessonId": "C11-L01",
+      "prompt": "Which appointment preparation is most useful?",
+      "options": [
+        "Choose a diagnosis from a social-media video.",
+        "Describe timing, location, associated symptoms and questions you want answered.",
+        "Omit medicine changes because sexual symptoms are unrelated to health.",
+        "Promise to resume sex immediately after the appointment."
+      ],
+      "optionIds": [
+        "C11-L01-Q02-O1",
+        "C11-L01-Q02-O2",
+        "C11-L01-Q02-O3",
+        "C11-L01-Q02-O4"
+      ],
+      "correctIndex": 1,
+      "correctOptionId": "C11-L01-Q02-O2",
+      "feedback": "A clear symptom history helps a clinician assess the concern without requiring you to self-diagnose.",
+      "critical": false,
+      "sourceIds": [
+        "B17",
+        "B24"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C11-L02-Q01",
+      "kind": "formative",
+      "moduleId": "C11",
+      "lessonId": "C11-L02",
+      "prompt": "What can an erection or other physical arousal establish on its own?",
+      "options": [
+        "That consent is present.",
+        "That the person owes sexual activity.",
+        "That all preferences are known.",
+        "It cannot establish consent or reveal all of a person's wishes."
+      ],
+      "optionIds": [
+        "C11-L02-Q01-O1",
+        "C11-L02-Q01-O2",
+        "C11-L02-Q01-O3",
+        "C11-L02-Q01-O4"
+      ],
+      "correctIndex": 3,
+      "correctOptionId": "C11-L02-Q01-O4",
+      "feedback": "Bodily response and consent are different. Clear, ongoing agreement is still required.",
+      "critical": false,
+      "sourceIds": [
+        "B11",
+        "B18",
+        "B19"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C11-L02-Q02",
+      "kind": "formative",
+      "moduleId": "C11",
+      "lessonId": "C11-L02",
+      "prompt": "What is a constructive response to a persistent, distressing change in sexual function?",
+      "options": [
+        "Discuss it with a qualified clinician and avoid changing treatment without advice.",
+        "Treat it as a personal failure.",
+        "Use someone else's prescribed medicine.",
+        "Agree to unwanted sex to test whether the problem resolves."
+      ],
+      "optionIds": [
+        "C11-L02-Q02-O1",
+        "C11-L02-Q02-O2",
+        "C11-L02-Q02-O3",
+        "C11-L02-Q02-O4"
+      ],
+      "correctIndex": 0,
+      "correctOptionId": "C11-L02-Q02-O1",
+      "feedback": "Changes can have different contributors. Individual assessment is more appropriate than pressure or unsupervised treatment.",
+      "critical": false,
+      "sourceIds": [
+        "B11",
+        "B18",
+        "B19"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C11-L03-Q01",
+      "kind": "formative",
+      "moduleId": "C11",
+      "lessonId": "C11-L03",
+      "prompt": "Someone freezes during an intimate interaction. What should happen next?",
+      "options": [
+        "Continue unless they verbally object.",
+        "Stop and check what support they want without assuming consent or diagnosing them.",
+        "Ask them to prove they are distressed.",
+        "Treat freezing as an agreed role unless told otherwise."
+      ],
+      "optionIds": [
+        "C11-L03-Q01-O1",
+        "C11-L03-Q01-O2",
+        "C11-L03-Q01-O3",
+        "C11-L03-Q01-O4"
+      ],
+      "correctIndex": 1,
+      "correctOptionId": "C11-L03-Q01-O2",
+      "feedback": "A lack of response is not consent. Stop and attend to the person's wellbeing and choices.",
+      "critical": false,
+      "sourceIds": [
+        "B11",
+        "B20",
+        "B22"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C11-L03-Q02",
+      "kind": "formative",
+      "moduleId": "C11",
+      "lessonId": "C11-L03",
+      "prompt": "Which action fits trauma-sensitive support?",
+      "options": [
+        "Require a detailed account before offering help.",
+        "Promise that one conversation will resolve the experience.",
+        "Listen without blame and offer qualified support while respecting the person's choices.",
+        "Prescribe sexual activity to rebuild confidence."
+      ],
+      "optionIds": [
+        "C11-L03-Q02-O1",
+        "C11-L03-Q02-O2",
+        "C11-L03-Q02-O3",
+        "C11-L03-Q02-O4"
+      ],
+      "correctIndex": 2,
+      "correctOptionId": "C11-L03-Q02-O3",
+      "feedback": "A supportive response does not investigate, diagnose or take control. It helps the person access options.",
+      "critical": false,
+      "sourceIds": [
+        "B11",
+        "B20",
+        "B22"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C12-L01-Q01",
+      "kind": "formative",
+      "moduleId": "C12",
+      "lessonId": "C12-L01",
+      "prompt": "Which is a suitable course action-plan goal?",
+      "options": [
+        "Meet a weekly sexual quota.",
+        "Disclose a private fantasy in a public forum.",
+        "Practise a respectful boundary sentence or identify a suitable health service.",
+        "Agree to an unwanted activity to become more open-minded."
+      ],
+      "optionIds": [
+        "C12-L01-Q01-O1",
+        "C12-L01-Q01-O2",
+        "C12-L01-Q01-O3",
+        "C12-L01-Q01-O4"
+      ],
+      "correctIndex": 2,
+      "correctOptionId": "C12-L01-Q01-O3",
+      "feedback": "A useful goal increases informed choice. It does not require exposure, disclosure or sexual participation.",
+      "critical": false,
+      "sourceIds": [
+        "B23",
+        "B11"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C12-L01-Q02",
+      "kind": "formative",
+      "moduleId": "C12",
+      "lessonId": "C12-L01",
+      "prompt": "What does a course completion record establish?",
+      "options": [
+        "That other people can rely on the learner to consent for them.",
+        "That the learner completed the stated educational tasks.",
+        "That the learner is clinically qualified.",
+        "That all future relationships will be safe."
+      ],
+      "optionIds": [
+        "C12-L01-Q02-O1",
+        "C12-L01-Q02-O2",
+        "C12-L01-Q02-O3",
+        "C12-L01-Q02-O4"
+      ],
+      "correctIndex": 1,
+      "correctOptionId": "C12-L01-Q02-O2",
+      "feedback": "Completion is an educational record. It does not guarantee conduct, grant accreditation or replace anyone's ongoing consent.",
+      "critical": false,
+      "sourceIds": [
+        "B23",
+        "B11"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C12-L02-Q01",
+      "kind": "formative",
+      "moduleId": "C12",
+      "lessonId": "C12-L02",
+      "prompt": "Which sentence demonstrates accountability?",
+      "options": [
+        "I did this, it affected you, and I will take the corrective step you are comfortable with where I can.",
+        "I meant well, so the boundary does not count.",
+        "You must forgive me because I apologised.",
+        "My feelings make you responsible for resuming contact."
+      ],
+      "optionIds": [
+        "C12-L02-Q01-O1",
+        "C12-L02-Q01-O2",
+        "C12-L02-Q01-O3",
+        "C12-L02-Q01-O4"
+      ],
+      "correctIndex": 0,
+      "correctOptionId": "C12-L02-Q01-O1",
+      "feedback": "Accountability names the behaviour, recognises impact and leaves the other person free to decide what happens next.",
+      "critical": false,
+      "sourceIds": [
+        "B21",
+        "B22",
+        "B23"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C12-L02-Q02",
+      "kind": "formative",
+      "moduleId": "C12",
+      "lessonId": "C12-L02",
+      "prompt": "When fear or coercion is present, what should take priority?",
+      "options": [
+        "A required face-to-face discussion between partners.",
+        "Finding a compromise that includes unwanted sex.",
+        "Protecting the reputation of the person who caused harm.",
+        "Safety and suitable independent specialist support."
+      ],
+      "optionIds": [
+        "C12-L02-Q02-O1",
+        "C12-L02-Q02-O2",
+        "C12-L02-Q02-O3",
+        "C12-L02-Q02-O4"
+      ],
+      "correctIndex": 3,
+      "correctOptionId": "C12-L02-Q02-O4",
+      "feedback": "Safety concerns require more than a communication exercise. A person should not be pushed into contact or negotiation that could increase harm.",
+      "critical": false,
+      "sourceIds": [
+        "B21",
+        "B22",
+        "B23"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C12-L03-Q01",
+      "kind": "formative",
+      "moduleId": "C12",
+      "lessonId": "C12-L03",
+      "prompt": "Which pairing is appropriate?",
+      "options": [
+        "A course forum for emergency medical response.",
+        "eSafety's official reporting information for intimate-image abuse.",
+        "A partner for an independent diagnosis.",
+        "A social-media advertisement for personalised treatment."
+      ],
+      "optionIds": [
+        "C12-L03-Q01-O1",
+        "C12-L03-Q01-O2",
+        "C12-L03-Q01-O3",
+        "C12-L03-Q01-O4"
+      ],
+      "correctIndex": 1,
+      "correctOptionId": "C12-L03-Q01-O2",
+      "feedback": "The service should match the need. eSafety provides official information and reporting routes for online image-based abuse.",
+      "critical": false,
+      "sourceIds": [
+        "B24",
+        "B22",
+        "B04",
+        "B25",
+        "B11"
+      ],
+      "points": 1
+    },
+    {
+      "id": "C12-L03-Q02",
+      "kind": "formative",
+      "moduleId": "C12",
+      "lessonId": "C12-L03",
+      "prompt": "What should you do when a necessary part of a consent decision remains uncertain?",
+      "options": [
+        "Use previous agreement to fill the gap.",
+        "Ask a friend to approve it for both people.",
+        "Pause, clarify or decline; proceed only when the necessary conditions are established.",
+        "Treat an online certificate as proof that everything is acceptable."
+      ],
+      "optionIds": [
+        "C12-L03-Q02-O1",
+        "C12-L03-Q02-O2",
+        "C12-L03-Q02-O3",
+        "C12-L03-Q02-O4"
+      ],
+      "correctIndex": 2,
+      "correctOptionId": "C12-L03-Q02-O3",
+      "feedback": "Uncertainty cannot be replaced by assumptions, past permission or a certificate.",
+      "critical": false,
+      "sourceIds": [
+        "B24",
+        "B22",
+        "B04",
+        "B25",
+        "B11"
+      ],
+      "points": 1
+    },
+    {
+      "id": "E01-L01-Q01",
+      "kind": "formative",
+      "moduleId": "E01",
+      "lessonId": "E01-L01",
+      "prompt": "Which invitation leaves the clearest room for choice?",
+      "options": [
+        "You always like this.",
+        "Would you like this kind of touch now?",
+        "You owe me a turn.",
+        "You said yes last month."
+      ],
+      "optionIds": [
+        "E01-L01-Q01-O1",
+        "E01-L01-Q01-O2",
+        "E01-L01-Q01-O3",
+        "E01-L01-Q01-O4"
+      ],
+      "correctIndex": 1,
+      "correctOptionId": "E01-L01-Q01-O2",
+      "feedback": "A specific present-tense invitation allows an answer without importing obligation.",
+      "critical": false,
+      "sourceIds": [
+        "R02"
+      ],
+      "points": 1
+    },
+    {
+      "id": "E01-L01-Q02",
+      "kind": "formative",
+      "moduleId": "E01",
+      "lessonId": "E01-L01",
+      "prompt": "A person freely agrees to one specific activity and wants to continue. What does that agreement cover?",
+      "options": [
+        "Every related activity is agreed.",
+        "Stopping would be unfair.",
+        "Only that activity is agreed, while consent continues.",
+        "An orgasm is now required."
+      ],
+      "optionIds": [
+        "E01-L01-Q02-O1",
+        "E01-L01-Q02-O2",
+        "E01-L01-Q02-O3",
+        "E01-L01-Q02-O4"
+      ],
+      "correctIndex": 2,
+      "correctOptionId": "E01-L01-Q02-O3",
+      "feedback": "Agreement remains specific and can change. There is no required next step.",
+      "critical": false,
+      "sourceIds": [
+        "R02"
+      ],
+      "points": 1
+    },
+    {
+      "id": "E01-L02-Q01",
+      "kind": "formative",
+      "moduleId": "E01",
+      "lessonId": "E01-L02",
+      "prompt": "What is the best first reference for cleaning an unfamiliar product?",
+      "options": [
+        "Its specific manufacturer instructions.",
+        "A random comment on a video.",
+        "Its price.",
+        "A friend’s method for a different item."
+      ],
+      "optionIds": [
+        "E01-L02-Q01-O1",
+        "E01-L02-Q01-O2",
+        "E01-L02-Q01-O3",
+        "E01-L02-Q01-O4"
+      ],
+      "correctIndex": 0,
+      "correctOptionId": "E01-L02-Q01-O1",
+      "feedback": "Cleaning and compatibility depend on the particular product; do not generalise from another item.",
+      "critical": false,
+      "sourceIds": [
+        "R10"
+      ],
+      "points": 1
+    },
+    {
+      "id": "E01-L02-Q02",
+      "kind": "formative",
+      "moduleId": "E01",
+      "lessonId": "E01-L02",
+      "prompt": "Which statement about barriers is accurate?",
+      "options": [
+        "They remove every risk.",
+        "They can be reused if they look intact.",
+        "Two condoms together are always better.",
+        "Correct use can reduce risk, but protection is not absolute."
+      ],
+      "optionIds": [
+        "E01-L02-Q02-O1",
+        "E01-L02-Q02-O2",
+        "E01-L02-Q02-O3",
+        "E01-L02-Q02-O4"
+      ],
+      "correctIndex": 3,
+      "correctOptionId": "E01-L02-Q02-O4",
+      "feedback": "Use barriers as directed. Reuse and combining internal and external condoms are not recommended.",
+      "critical": false,
+      "sourceIds": [
+        "R10"
+      ],
+      "points": 1
+    },
+    {
+      "id": "E02-L01-Q01",
+      "kind": "formative",
+      "moduleId": "E02",
+      "lessonId": "E02-L01",
+      "prompt": "What is the most useful basis for a sexual health discussion?",
+      "options": [
+        "A person’s appearance.",
+        "Their orientation alone.",
+        "The actual activities and relevant body sites.",
+        "Whether they seem experienced."
+      ],
+      "optionIds": [
+        "E02-L01-Q01-O1",
+        "E02-L01-Q01-O2",
+        "E02-L01-Q01-O3",
+        "E02-L01-Q01-O4"
+      ],
+      "correctIndex": 2,
+      "correctOptionId": "E02-L01-Q01-O3",
+      "feedback": "Behaviour and exposure are more useful than assumptions based on identity.",
+      "critical": false,
+      "sourceIds": [
+        "R02",
+        "R09",
+        "R15"
+      ],
+      "points": 1
+    },
+    {
+      "id": "E02-L01-Q02",
+      "kind": "formative",
+      "moduleId": "E02",
+      "lessonId": "E02-L01",
+      "prompt": "Someone agrees to external touch. What else is automatically agreed?",
+      "options": [
+        "Nothing beyond the agreed activity.",
+        "Oral contact.",
+        "Penetration.",
+        "Any activity once arousal occurs."
+      ],
+      "optionIds": [
+        "E02-L01-Q02-O1",
+        "E02-L01-Q02-O2",
+        "E02-L01-Q02-O3",
+        "E02-L01-Q02-O4"
+      ],
+      "correctIndex": 0,
+      "correctOptionId": "E02-L01-Q02-O1",
+      "feedback": "Consent is specific and ongoing. A physical response is not permission.",
+      "critical": false,
+      "sourceIds": [
+        "R02",
+        "R09",
+        "R15"
+      ],
+      "points": 1
+    },
+    {
+      "id": "E02-L02-Q01",
+      "kind": "formative",
+      "moduleId": "E02",
+      "lessonId": "E02-L02",
+      "prompt": "Which statement fits the course?",
+      "options": [
+        "Anal activity is expected in adventurous relationships.",
+        "Learning about an activity creates an obligation to try it.",
+        "Orientation determines whether someone wants anal contact.",
+        "It needs its own agreement and can be declined."
+      ],
+      "optionIds": [
+        "E02-L02-Q01-O1",
+        "E02-L02-Q01-O2",
+        "E02-L02-Q01-O3",
+        "E02-L02-Q01-O4"
+      ],
+      "correctIndex": 3,
+      "correctOptionId": "E02-L02-Q01-O4",
+      "feedback": "Interest and identity do not establish consent.",
+      "critical": false,
+      "sourceIds": [
+        "R02",
+        "R11",
+        "R16"
+      ],
+      "points": 1
+    },
+    {
+      "id": "E02-L02-Q02",
+      "kind": "formative",
+      "moduleId": "E02",
+      "lessonId": "E02-L02",
+      "prompt": "What is a reason to seek medical advice?",
+      "options": [
+        "Not wanting to try an activity.",
+        "Persistent pain or bleeding.",
+        "Choosing external intimacy.",
+        "Having a boundary."
+      ],
+      "optionIds": [
+        "E02-L02-Q02-O1",
+        "E02-L02-Q02-O2",
+        "E02-L02-Q02-O3",
+        "E02-L02-Q02-O4"
+      ],
+      "correctIndex": 1,
+      "correctOptionId": "E02-L02-Q02-O2",
+      "feedback": "Symptoms deserve assessment; preferences and boundaries are not medical problems.",
+      "critical": false,
+      "sourceIds": [
+        "R02",
+        "R11",
+        "R16"
+      ],
+      "points": 1
+    },
+    {
+      "id": "E03-L01-Q01",
+      "kind": "formative",
+      "moduleId": "E03",
+      "lessonId": "E03-L01",
+      "prompt": "What does a relationship label establish?",
+      "options": [
+        "Permanent permission.",
+        "A guarantee against conflict.",
+        "A starting point for discussion, not all the details.",
+        "One person’s control over others."
+      ],
+      "optionIds": [
+        "E03-L01-Q01-O1",
+        "E03-L01-Q01-O2",
+        "E03-L01-Q01-O3",
+        "E03-L01-Q01-O4"
+      ],
+      "correctIndex": 2,
+      "correctOptionId": "E03-L01-Q01-O3",
+      "feedback": "Specific expectations still need discussion and voluntary agreement.",
+      "critical": false,
+      "sourceIds": [
+        "R02"
+      ],
+      "points": 1
+    },
+    {
+      "id": "E03-L01-Q02",
+      "kind": "formative",
+      "moduleId": "E03",
+      "lessonId": "E03-L01",
+      "prompt": "How should a proposed major change be handled?",
+      "options": [
+        "With discussion and time for a voluntary decision.",
+        "By acting first and explaining later.",
+        "By treating jealousy as proof of immaturity.",
+        "By threatening withdrawal of care until someone agrees."
+      ],
+      "optionIds": [
+        "E03-L01-Q02-O1",
+        "E03-L01-Q02-O2",
+        "E03-L01-Q02-O3",
+        "E03-L01-Q02-O4"
+      ],
+      "correctIndex": 0,
+      "correctOptionId": "E03-L01-Q02-O1",
+      "feedback": "The ability to decline matters, including when preferences are incompatible.",
+      "critical": false,
+      "sourceIds": [
+        "R02"
+      ],
+      "points": 1
+    },
+    {
+      "id": "E03-L02-Q01",
+      "kind": "formative",
+      "moduleId": "E03",
+      "lessonId": "E03-L02",
+      "prompt": "What does an event ticket authorise?",
+      "options": [
+        "Any activity at the event.",
+        "Photography of every attendee.",
+        "Touch whenever someone smiles.",
+        "Entry under the rules, not sexual contact."
+      ],
+      "optionIds": [
+        "E03-L02-Q01-O1",
+        "E03-L02-Q01-O2",
+        "E03-L02-Q01-O3",
+        "E03-L02-Q01-O4"
+      ],
+      "correctIndex": 3,
+      "correctOptionId": "E03-L02-Q01-O4",
+      "feedback": "Presence is not consent to an interaction.",
+      "critical": false,
+      "sourceIds": [
+        "R02",
+        "R13"
+      ],
+      "points": 1
+    },
+    {
+      "id": "E03-L02-Q02",
+      "kind": "formative",
+      "moduleId": "E03",
+      "lessonId": "E03-L02",
+      "prompt": "Which response to jealousy is most constructive?",
+      "options": [
+        "Secret monitoring.",
+        "Naming the feeling and discussing needs without controlling others.",
+        "Public humiliation.",
+        "Demanding someone else disclose private messages."
+      ],
+      "optionIds": [
+        "E03-L02-Q02-O1",
+        "E03-L02-Q02-O2",
+        "E03-L02-Q02-O3",
+        "E03-L02-Q02-O4"
+      ],
+      "correctIndex": 1,
+      "correctOptionId": "E03-L02-Q02-O2",
+      "feedback": "Discussion can clarify choices without turning feelings into authority over others.",
+      "critical": false,
+      "sourceIds": [
+        "R02",
+        "R13"
+      ],
+      "points": 1
+    },
+    {
+      "id": "E04-L01-Q01",
+      "kind": "formative",
+      "moduleId": "E04",
+      "lessonId": "E04-L01",
+      "prompt": "What does sharing a fantasy establish?",
+      "options": [
+        "Permission to enact it.",
+        "Consent to discuss it only to the extent agreed.",
+        "A commitment to a date.",
+        "Proof of experience."
+      ],
+      "optionIds": [
+        "E04-L01-Q01-O1",
+        "E04-L01-Q01-O2",
+        "E04-L01-Q01-O3",
+        "E04-L01-Q01-O4"
+      ],
+      "correctIndex": 1,
+      "correctOptionId": "E04-L01-Q01-O2",
+      "feedback": "Ask what kind of conversation is wanted; do not infer permission to act.",
+      "critical": false,
+      "sourceIds": [
+        "R02"
+      ],
+      "points": 1
+    },
+    {
+      "id": "E04-L01-Q02",
+      "kind": "formative",
+      "moduleId": "E04",
+      "lessonId": "E04-L01",
+      "prompt": "What is a valid outcome of negotiation?",
+      "options": [
+        "Only an enthusiastic yes.",
+        "A compromise that crosses a firm boundary.",
+        "A no or a decision to wait.",
+        "Agreement obtained through repeated pressure."
+      ],
+      "optionIds": [
+        "E04-L01-Q02-O1",
+        "E04-L01-Q02-O2",
+        "E04-L01-Q02-O3",
+        "E04-L01-Q02-O4"
+      ],
+      "correctIndex": 2,
+      "correctOptionId": "E04-L01-Q02-O3",
+      "feedback": "Negotiation should clarify choices, including declining.",
+      "critical": false,
+      "sourceIds": [
+        "R02"
+      ],
+      "points": 1
+    },
+    {
+      "id": "E04-L02-Q01",
+      "kind": "formative",
+      "moduleId": "E04",
+      "lessonId": "E04-L02",
+      "prompt": "Which behaviour supports credible teaching?",
+      "options": [
+        "Welcoming questions and stating limits.",
+        "Punishing a refusal.",
+        "Demanding secrecy about distress.",
+        "Claiming all risk has been removed."
+      ],
+      "optionIds": [
+        "E04-L02-Q01-O1",
+        "E04-L02-Q01-O2",
+        "E04-L02-Q01-O3",
+        "E04-L02-Q01-O4"
+      ],
+      "correctIndex": 0,
+      "correctOptionId": "E04-L02-Q01-O1",
+      "feedback": "Transparency and boundaries are better indicators than status or charisma.",
+      "critical": false,
+      "sourceIds": [
+        "R02",
+        "R14"
+      ],
+      "points": 1
+    },
+    {
+      "id": "E04-L02-Q02",
+      "kind": "formative",
+      "moduleId": "E04",
+      "lessonId": "E04-L02",
+      "prompt": "What can aftercare do?",
+      "options": [
+        "Erase any previous violation.",
+        "Require forgiveness.",
+        "Provide agreed support without changing whether earlier consent existed.",
+        "Replace medical attention for injury."
+      ],
+      "optionIds": [
+        "E04-L02-Q02-O1",
+        "E04-L02-Q02-O2",
+        "E04-L02-Q02-O3",
+        "E04-L02-Q02-O4"
+      ],
+      "correctIndex": 2,
+      "correctOptionId": "E04-L02-Q02-O3",
+      "feedback": "Care can support someone but cannot retrospectively authorise unwanted conduct.",
+      "critical": false,
+      "sourceIds": [
+        "R02",
+        "R14"
+      ],
+      "points": 1
+    },
+    {
+      "id": "E05-L01-Q01",
+      "kind": "formative",
+      "moduleId": "E05",
+      "lessonId": "E05-L01",
+      "prompt": "What does strong online chemistry prove?",
+      "options": [
+        "All profile details are accurate.",
+        "There is no need for boundaries.",
+        "The person owes you a meeting.",
+        "Only that the conversation felt promising; other questions remain."
+      ],
+      "optionIds": [
+        "E05-L01-Q01-O1",
+        "E05-L01-Q01-O2",
+        "E05-L01-Q01-O3",
+        "E05-L01-Q01-O4"
+      ],
+      "correctIndex": 3,
+      "correctOptionId": "E05-L01-Q01-O4",
+      "feedback": "Rapport is valuable but does not verify safety or identity.",
+      "critical": false,
+      "sourceIds": [
+        "R02",
+        "R12"
+      ],
+      "points": 1
+    },
+    {
+      "id": "E05-L01-Q02",
+      "kind": "formative",
+      "moduleId": "E05",
+      "lessonId": "E05-L01",
+      "prompt": "What is a useful access question?",
+      "options": [
+        "What is your full diagnosis?",
+        "Is there a quieter accessible place where we could meet?",
+        "Can you ignore your needs for one evening?",
+        "Why are you making this difficult?"
+      ],
+      "optionIds": [
+        "E05-L01-Q02-O1",
+        "E05-L01-Q02-O2",
+        "E05-L01-Q02-O3",
+        "E05-L01-Q02-O4"
+      ],
+      "correctIndex": 1,
+      "correctOptionId": "E05-L01-Q02-O2",
+      "feedback": "Specific practical questions support access without demanding personal disclosure.",
+      "critical": false,
+      "sourceIds": [
+        "R02",
+        "R12"
+      ],
+      "points": 1
+    },
+    {
+      "id": "E05-L02-Q01",
+      "kind": "formative",
+      "moduleId": "E05",
+      "lessonId": "E05-L02",
+      "prompt": "What can disappearing messages guarantee?",
+      "options": [
+        "No screenshot is possible.",
+        "The recipient cannot copy content.",
+        "Neither perfect deletion nor prevention of copying.",
+        "Future consent to sharing."
+      ],
+      "optionIds": [
+        "E05-L02-Q01-O1",
+        "E05-L02-Q01-O2",
+        "E05-L02-Q01-O3",
+        "E05-L02-Q01-O4"
+      ],
+      "correctIndex": 2,
+      "correctOptionId": "E05-L02-Q01-O3",
+      "feedback": "Technical features do not remove every copy or privacy risk.",
+      "critical": false,
+      "sourceIds": [
+        "R02",
+        "R13"
+      ],
+      "points": 1
+    },
+    {
+      "id": "E05-L02-Q02",
+      "kind": "formative",
+      "moduleId": "E05",
+      "lessonId": "E05-L02",
+      "prompt": "Who is responsible for non-consensual sharing?",
+      "options": [
+        "The person choosing to share without consent.",
+        "The person who trusted them.",
+        "The person who refused to send more.",
+        "Anyone who failed to use a particular app."
+      ],
+      "optionIds": [
+        "E05-L02-Q02-O1",
+        "E05-L02-Q02-O2",
+        "E05-L02-Q02-O3",
+        "E05-L02-Q02-O4"
+      ],
+      "correctIndex": 0,
+      "correctOptionId": "E05-L02-Q02-O1",
+      "feedback": "Abuse is the responsibility of the person committing it.",
+      "critical": false,
+      "sourceIds": [
+        "R02",
+        "R13"
+      ],
+      "points": 1
+    },
+    {
+      "id": "E06-L01-Q01",
+      "kind": "formative",
+      "moduleId": "E06",
+      "lessonId": "E06-L01",
+      "prompt": "What determines a useful plan during change?",
+      "options": [
+        "How sex used to happen.",
+        "What people of that age supposedly do.",
+        "Present wishes, comfort, circumstances and appropriate advice.",
+        "A fixed deadline from social media."
+      ],
+      "optionIds": [
+        "E06-L01-Q01-O1",
+        "E06-L01-Q01-O2",
+        "E06-L01-Q01-O3",
+        "E06-L01-Q01-O4"
+      ],
+      "correctIndex": 2,
+      "correctOptionId": "E06-L01-Q01-O3",
+      "feedback": "Plans should fit the person now, not a stereotype or past obligation.",
+      "critical": false,
+      "sourceIds": [
+        "R02",
+        "R15"
+      ],
+      "points": 1
+    },
+    {
+      "id": "E06-L01-Q02",
+      "kind": "formative",
+      "moduleId": "E06",
+      "lessonId": "E06-L01",
+      "prompt": "What should someone do about a suspected medicine effect?",
+      "options": [
+        "Stop the medicine immediately without advice.",
+        "Double a dose to compensate.",
+        "Use a product review as a diagnosis.",
+        "Discuss the concern with the prescribing clinician."
+      ],
+      "optionIds": [
+        "E06-L01-Q02-O1",
+        "E06-L01-Q02-O2",
+        "E06-L01-Q02-O3",
+        "E06-L01-Q02-O4"
+      ],
+      "correctIndex": 3,
+      "correctOptionId": "E06-L01-Q02-O4",
+      "feedback": "Individual medication decisions need clinical advice.",
+      "critical": false,
+      "sourceIds": [
+        "R02",
+        "R15"
+      ],
+      "points": 1
+    },
+    {
+      "id": "E06-L02-Q01",
+      "kind": "formative",
+      "moduleId": "E06",
+      "lessonId": "E06-L02",
+      "prompt": "Which question best supports access?",
+      "options": [
+        "Can you act more normal?",
+        "What would make this conversation work for you?",
+        "What is your entire medical history?",
+        "Can your partner decide for you?"
+      ],
+      "optionIds": [
+        "E06-L02-Q01-O1",
+        "E06-L02-Q01-O2",
+        "E06-L02-Q01-O3",
+        "E06-L02-Q01-O4"
+      ],
+      "correctIndex": 1,
+      "correctOptionId": "E06-L02-Q01-O2",
+      "feedback": "Practical preference questions support autonomy without forcing disclosure.",
+      "critical": false,
+      "sourceIds": [
+        "R02",
+        "R14"
+      ],
+      "points": 1
+    },
+    {
+      "id": "E06-L02-Q02",
+      "kind": "formative",
+      "moduleId": "E06",
+      "lessonId": "E06-L02",
+      "prompt": "If a reliable shared consent method is unavailable, what is the next step?",
+      "options": [
+        "Guess from appearance.",
+        "Rely on the helper’s enthusiasm.",
+        "Pause and establish accessible communication.",
+        "Treat silence as agreement."
+      ],
+      "optionIds": [
+        "E06-L02-Q02-O1",
+        "E06-L02-Q02-O2",
+        "E06-L02-Q02-O3",
+        "E06-L02-Q02-O4"
+      ],
+      "correctIndex": 2,
+      "correctOptionId": "E06-L02-Q02-O3",
+      "feedback": "Uncertain communication is a reason to pause, not assume consent.",
+      "critical": false,
+      "sourceIds": [
+        "R02",
+        "R14"
+      ],
+      "points": 1
+    },
+    {
+      "id": "CAP01-Q01",
+      "kind": "capstone",
+      "moduleId": null,
+      "lessonId": null,
+      "prompt": "During an agreed activity, one adult says stop. What should the other person do?",
+      "options": [
+        "Ask what changed, then decide whether to stop.",
+        "Stop immediately and accept the person's changed choice.",
+        "Pause briefly, then resume under the earlier agreement.",
+        "Switch activities without discussing the change in consent."
+      ],
+      "optionIds": [
+        "CAP01-Q01-O1",
+        "CAP01-Q01-O2",
+        "CAP01-Q01-O3",
+        "CAP01-Q01-O4"
+      ],
+      "correctIndex": 1,
+      "correctOptionId": "CAP01-Q01-O2",
+      "feedback": "Agreement can be withdrawn. Stop immediately and respect the person's choice; a previous yes or bodily response does not override it.",
+      "critical": true,
+      "sourceIds": [
+        "R02"
+      ],
+      "points": 1
+    },
+    {
+      "id": "CAP01-Q02",
+      "kind": "capstone",
+      "moduleId": null,
+      "lessonId": null,
+      "prompt": "Someone is struggling to understand what is happening and you cannot establish a clear voluntary choice. What is the appropriate next step?",
+      "options": [
+        "Use their earlier message to interpret their present wishes.",
+        "Simplify the activity and treat a lack of objection as agreement.",
+        "Ask their chosen support person to provide permission for them.",
+        "Pause; resume only if they understand and freely agree themselves."
+      ],
+      "optionIds": [
+        "CAP01-Q02-O1",
+        "CAP01-Q02-O2",
+        "CAP01-Q02-O3",
+        "CAP01-Q02-O4"
+      ],
+      "correctIndex": 3,
+      "correctOptionId": "CAP01-Q02-O4",
+      "feedback": "If understanding or voluntary agreement remains unclear, do not proceed. Support accessible communication and seek suitable guidance where needed. A support person may help the adult communicate; they cannot provide consent in the adult's place.",
+      "critical": true,
+      "sourceIds": [
+        "R02"
+      ],
+      "points": 1
+    },
+    {
+      "id": "CAP01-Q03",
+      "kind": "capstone",
+      "moduleId": null,
+      "lessonId": null,
+      "prompt": "A learner has severe sudden pain and feels faint during an activity. What should they prioritise?",
+      "options": [
+        "Stop and seek urgent medical help",
+        "Complete the activity to check if the feeling passes",
+        "Ask an AI tutor for a definitive diagnosis",
+        "Wait for the course facilitator's next office hour"
+      ],
+      "optionIds": [
+        "CAP01-Q03-O1",
+        "CAP01-Q03-O2",
+        "CAP01-Q03-O3",
+        "CAP01-Q03-O4"
+      ],
+      "correctIndex": 0,
+      "correctOptionId": "CAP01-Q03-O1",
+      "feedback": "Stop. Severe or urgent symptoms require real medical help, not a course exercise or delayed online response. Use local emergency services if the situation is an emergency.",
+      "critical": true,
+      "sourceIds": [
+        "R16"
+      ],
+      "points": 1
+    },
+    {
+      "id": "CAP01-Q04",
+      "kind": "capstone",
+      "moduleId": null,
+      "lessonId": null,
+      "prompt": "A private intimate image has been shared with a group without permission. Which response best supports the person affected?",
+      "options": [
+        "Ask to inspect the image before offering help.",
+        "Contact the group without asking the person affected.",
+        "Avoid further sharing; offer reporting help without pressure.",
+        "Select a reporting route without involving the person."
+      ],
+      "optionIds": [
+        "CAP01-Q04-O1",
+        "CAP01-Q04-O2",
+        "CAP01-Q04-O3",
+        "CAP01-Q04-O4"
+      ],
+      "correctIndex": 2,
+      "correctOptionId": "CAP01-Q04-O3",
+      "feedback": "Do not compound the sharing. eSafety can help with image-based abuse in Australia; support should avoid blame and preserve the person's choices.",
+      "critical": true,
+      "sourceIds": [
+        "R13"
+      ],
+      "points": 1
+    },
+    {
+      "id": "CAP01-Q05",
+      "kind": "capstone",
+      "moduleId": null,
+      "lessonId": null,
+      "prompt": "What is the most reliable basis for deciding which sexual-health questions to ask a clinician?",
+      "options": [
+        "The partner's appearance and how healthy they seem.",
+        "Relevant activities, body sites, symptoms and other circumstances.",
+        "The relationship label and expectations attached to it.",
+        "An influencer's advice for people with similar identities."
+      ],
+      "optionIds": [
+        "CAP01-Q05-O1",
+        "CAP01-Q05-O2",
+        "CAP01-Q05-O3",
+        "CAP01-Q05-O4"
+      ],
+      "correctIndex": 1,
+      "correctOptionId": "CAP01-Q05-O2",
+      "feedback": "Health discussions should reflect relevant exposure and circumstances, with individual advice from a qualified professional.",
+      "critical": false,
+      "sourceIds": [
+        "R09"
+      ],
+      "points": 1
+    },
+    {
+      "id": "CAP01-Q06",
+      "kind": "capstone",
+      "moduleId": null,
+      "lessonId": null,
+      "prompt": "Which statement about desire and arousal fits the course?",
+      "options": [
+        "A bodily response establishes consent when someone has not objected.",
+        "Desire must appear spontaneously before anyone can choose welcome closeness.",
+        "Compatible partners should settle on one frequency both must provide.",
+        "Desire, arousal and consent can differ within the same encounter."
+      ],
+      "optionIds": [
+        "CAP01-Q06-O1",
+        "CAP01-Q06-O2",
+        "CAP01-Q06-O3",
+        "CAP01-Q06-O4"
+      ],
+      "correctIndex": 3,
+      "correctOptionId": "CAP01-Q06-O4",
+      "feedback": "Arousal is not permission. People differ in their experience of desire, and no frequency is required for course success.",
+      "critical": false,
+      "sourceIds": [
+        "R02"
+      ],
+      "points": 1
+    },
+    {
+      "id": "CAP01-Q07",
+      "kind": "capstone",
+      "moduleId": null,
+      "lessonId": null,
+      "prompt": "A person proposes a new shared relationship arrangement. What should happen before it begins?",
+      "options": [
+        "Discuss the proposed change and seek everyone's voluntary agreement.",
+        "Introduce the change gradually and explain if anyone objects.",
+        "Treat an established relationship label as approval for change.",
+        "Set the new arrangement first and invite feedback afterward."
+      ],
+      "optionIds": [
+        "CAP01-Q07-O1",
+        "CAP01-Q07-O2",
+        "CAP01-Q07-O3",
+        "CAP01-Q07-O4"
+      ],
+      "correctIndex": 0,
+      "correctOptionId": "CAP01-Q07-O1",
+      "feedback": "An agreement should reflect the informed voluntary choices of the people affected. A label is not a substitute for discussion.",
+      "critical": false,
+      "sourceIds": [
+        "R02"
+      ],
+      "points": 1
+    },
+    {
+      "id": "CAP01-Q08",
+      "kind": "capstone",
+      "moduleId": null,
+      "lessonId": null,
+      "prompt": "An adult uses a communication aid. What should a partner or educator do?",
+      "options": [
+        "Let a companion decide instead of awaiting their answer.",
+        "Ask repeated questions quickly to make the conversation easier.",
+        "Use the adult's preferred communication method and allow time.",
+        "Rely on earlier answers when current replies take time."
+      ],
+      "optionIds": [
+        "CAP01-Q08-O1",
+        "CAP01-Q08-O2",
+        "CAP01-Q08-O3",
+        "CAP01-Q08-O4"
+      ],
+      "correctIndex": 2,
+      "correctOptionId": "CAP01-Q08-O3",
+      "feedback": "Accessible communication should support the adult's own choices, without assumptions about their autonomy.",
+      "critical": false,
+      "sourceIds": [
+        "R02"
+      ],
+      "points": 1
+    },
+    {
+      "id": "CAP01-Q09",
+      "kind": "capstone",
+      "moduleId": null,
+      "lessonId": null,
+      "prompt": "A learner does not want to be sexually active. What does the Academy require?",
+      "options": [
+        "Complete a practical touch exercise using a trusted partner.",
+        "Complete fictional learning tasks; no sexual activity is required.",
+        "Explain their reasons for declining before attempting the assessment.",
+        "Replace sexual participation with disclosure of a private experience."
+      ],
+      "optionIds": [
+        "CAP01-Q09-O1",
+        "CAP01-Q09-O2",
+        "CAP01-Q09-O3",
+        "CAP01-Q09-O4"
+      ],
+      "correctIndex": 1,
+      "correctOptionId": "CAP01-Q09-O2",
+      "feedback": "Participation in learning does not require sexual activity or a reason for declining it.",
+      "critical": false,
+      "sourceIds": [],
+      "points": 1
+    },
+    {
+      "id": "CAP01-Q10",
+      "kind": "capstone",
+      "moduleId": null,
+      "lessonId": null,
+      "prompt": "What can a negotiated stop word or written plan do?",
+      "options": [
+        "Make previous agreement sufficient until the special word is used.",
+        "Require ordinary refusals to be clarified before stopping the activity.",
+        "Confirm physical safety whenever everyone understands the same written plan.",
+        "Help communicate choices while ongoing consent and attention remain necessary."
+      ],
+      "optionIds": [
+        "CAP01-Q10-O1",
+        "CAP01-Q10-O2",
+        "CAP01-Q10-O3",
+        "CAP01-Q10-O4"
+      ],
+      "correctIndex": 3,
+      "correctOptionId": "CAP01-Q10-O4",
+      "feedback": "Planning is useful but does not remove risk or override a change in consent.",
+      "critical": false,
+      "sourceIds": [
+        "R02"
+      ],
+      "points": 1
+    },
+    {
+      "id": "CAP01-Q11",
+      "kind": "capstone",
+      "moduleId": null,
+      "lessonId": null,
+      "prompt": "A barrier is used correctly. Which statement is most accurate?",
+      "options": [
+        "It reduces some risks without removing the need for planning.",
+        "It makes testing unnecessary when neither person has visible symptoms.",
+        "It provides the same protection for every activity and infection.",
+        "It gives complete protection whenever the packet instructions are followed."
+      ],
+      "optionIds": [
+        "CAP01-Q11-O1",
+        "CAP01-Q11-O2",
+        "CAP01-Q11-O3",
+        "CAP01-Q11-O4"
+      ],
+      "correctIndex": 0,
+      "correctOptionId": "CAP01-Q11-O1",
+      "feedback": "Barriers reduce risk; they do not create a guarantee. Match health planning to the actual circumstances.",
+      "critical": false,
+      "sourceIds": [
+        "R09",
+        "R10"
+      ],
+      "points": 1
+    },
+    {
+      "id": "CAP01-Q12",
+      "kind": "capstone",
+      "moduleId": null,
+      "lessonId": null,
+      "prompt": "What does the completion certificate establish?",
+      "options": [
+        "Qualification to give individual clinical advice about sexual health.",
+        "Evidence that the holder's future relationships will remain consensual.",
+        "A record of completing the programme and its assessments.",
+        "Authority to decide which treatments another learner should use."
+      ],
+      "optionIds": [
+        "CAP01-Q12-O1",
+        "CAP01-Q12-O2",
+        "CAP01-Q12-O3",
+        "CAP01-Q12-O4"
+      ],
+      "correctIndex": 2,
+      "correctOptionId": "CAP01-Q12-O3",
+      "feedback": "The award records course completion. It is not a clinical credential or a guarantee about future behaviour.",
+      "critical": false,
+      "sourceIds": [],
+      "points": 1
+    },
+    {
+      "id": "PLAN01-Q01",
+      "kind": "applied_planning",
+      "moduleId": null,
+      "lessonId": null,
+      "prompt": "What should Alex and Sam clarify first?",
+      "options": [
+        "Clarify each person's wishes and boundaries before planning intimacy.",
+        "Use online chemistry to predict what both will want.",
+        "Reveal Sam's expectations only after the visit is underway.",
+        "Infer their expectations from the venue they have chosen."
+      ],
+      "optionIds": [
+        "PLAN01-Q01-O1",
+        "PLAN01-Q01-O2",
+        "PLAN01-Q01-O3",
+        "PLAN01-Q01-O4"
+      ],
+      "correctIndex": 0,
+      "correctOptionId": "PLAN01-Q01-O1",
+      "feedback": "Ask what each person wants. A visit or invitation does not establish sexual consent.",
+      "critical": true,
+      "sourceIds": [
+        "R02"
+      ],
+      "points": 1
+    },
+    {
+      "id": "PLAN01-Q02",
+      "kind": "applied_planning",
+      "moduleId": null,
+      "lessonId": null,
+      "prompt": "Alex prefers text for some discussions. Which plan supports a real choice?",
+      "options": [
+        "Offer only spoken answers so both use the same method.",
+        "Use text and give Alex time for their own response.",
+        "Let Sam explain which answer Alex probably intends to give.",
+        "Set a response deadline to keep the visit on schedule."
+      ],
+      "optionIds": [
+        "PLAN01-Q02-O1",
+        "PLAN01-Q02-O2",
+        "PLAN01-Q02-O3",
+        "PLAN01-Q02-O4"
+      ],
+      "correctIndex": 1,
+      "correctOptionId": "PLAN01-Q02-O2",
+      "feedback": "A chosen communication method and processing time support autonomy.",
+      "critical": true,
+      "sourceIds": [
+        "R02"
+      ],
+      "points": 1
+    },
+    {
+      "id": "PLAN01-Q03",
+      "kind": "applied_planning",
+      "moduleId": null,
+      "lessonId": null,
+      "prompt": "Which exit arrangement best preserves choice?",
+      "options": [
+        "Share one ride and require agreement before either person leaves.",
+        "Let the driver decide when the shared evening should end.",
+        "Keep practical ways for either person to stop or leave.",
+        "Agree to finish the visit before raising concerns about leaving."
+      ],
+      "optionIds": [
+        "PLAN01-Q03-O1",
+        "PLAN01-Q03-O2",
+        "PLAN01-Q03-O3",
+        "PLAN01-Q03-O4"
+      ],
+      "correctIndex": 2,
+      "correctOptionId": "PLAN01-Q03-O3",
+      "feedback": "A practical exit supports a voluntary decision and avoids creating pressure.",
+      "critical": true,
+      "sourceIds": [
+        "R02"
+      ],
+      "points": 1
+    },
+    {
+      "id": "PLAN01-Q04",
+      "kind": "applied_planning",
+      "moduleId": null,
+      "lessonId": null,
+      "prompt": "What belongs in their health discussion before any optional intimacy?",
+      "options": [
+        "Compare how healthy they look and whether either feels worried.",
+        "Use their relationship labels to choose one standard health plan.",
+        "Ask which single product can remove the need for testing.",
+        "Discuss proposed activities, relevant precautions and questions for a clinician."
+      ],
+      "optionIds": [
+        "PLAN01-Q04-O1",
+        "PLAN01-Q04-O2",
+        "PLAN01-Q04-O3",
+        "PLAN01-Q04-O4"
+      ],
+      "correctIndex": 3,
+      "correctOptionId": "PLAN01-Q04-O4",
+      "feedback": "Discuss relevant contact and questions without inferring health from identity.",
+      "critical": true,
+      "sourceIds": [
+        "R09",
+        "R10"
+      ],
+      "points": 1
+    },
+    {
+      "id": "PLAN01-Q05",
+      "kind": "applied_planning",
+      "moduleId": null,
+      "lessonId": null,
+      "prompt": "What should they do about photographs?",
+      "options": [
+        "Agree separately on taking, storing, sharing and any AI use.",
+        "Permit later sharing whenever the original photograph was freely agreed.",
+        "Treat a private account as sufficient permission for every use.",
+        "Allow the phone's owner to choose the audience and editing."
+      ],
+      "optionIds": [
+        "PLAN01-Q05-O1",
+        "PLAN01-Q05-O2",
+        "PLAN01-Q05-O3",
+        "PLAN01-Q05-O4"
+      ],
+      "correctIndex": 0,
+      "correctOptionId": "PLAN01-Q05-O1",
+      "feedback": "Taking a photograph, keeping it, sharing it and using it in an AI service are separate decisions. Earlier permission or a private account does not cover every later use.",
+      "critical": true,
+      "sourceIds": [
+        "R02",
+        "R13",
+        "B14"
+      ],
+      "points": 1
+    },
+    {
+      "id": "PLAN01-Q06",
+      "kind": "applied_planning",
+      "moduleId": null,
+      "lessonId": null,
+      "prompt": "Sam has a non-urgent health question before any intimacy. Which plan uses a suitable help route and respects the course's limits?",
+      "options": [
+        "Use their module score to decide which treatment Sam needs.",
+        "Ask a clinician; the course cannot diagnose or guarantee safety.",
+        "Ask an AI tutor to confirm that intimacy is safe.",
+        "Treat the lesson's lack of warnings as reassurance about safety."
+      ],
+      "optionIds": [
+        "PLAN01-Q06-O1",
+        "PLAN01-Q06-O2",
+        "PLAN01-Q06-O3",
+        "PLAN01-Q06-O4"
+      ],
+      "correctIndex": 1,
+      "correctOptionId": "PLAN01-Q06-O2",
+      "feedback": "A qualified clinician can address individual health questions. They can also postpone, meet without sex or decline while seeking advice. Education can help organise questions; it cannot diagnose Sam or guarantee safety.",
+      "critical": true,
+      "sourceIds": [
+        "R02",
+        "B24"
+      ],
+      "points": 1
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "C01-L01-SCENARIO",
+      "moduleId": "C01",
+      "lessonId": "C01-L01",
+      "prompt": "Two adults agreed earlier to spend the night together. At the door, one says they only want to talk.",
+      "options": [
+        "Treat the earlier plan as permission and continue persuading them.",
+        "Accept the current limit and ask whether they still want company."
+      ],
+      "correctIndex": 1,
+      "feedback": "The current choice controls the current interaction. Plans and expectations do not create a debt of intimacy.",
+      "sourceIds": [
+        "A01",
+        "A04"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C01-L02-SCENARIO",
+      "moduleId": "C01",
+      "lessonId": "C01-L02",
+      "prompt": "A date is becoming confused after drinking and cannot follow a simple conversation about going home.",
+      "options": [
+        "Pause intimacy and focus on safe, nonsexual support.",
+        "Rely on their earlier enthusiasm."
+      ],
+      "correctIndex": 0,
+      "feedback": "Earlier interest cannot resolve present uncertainty about capacity. Pausing protects the person's ability to choose.",
+      "sourceIds": [
+        "A02",
+        "A05",
+        "A06"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C01-L03-SCENARIO",
+      "moduleId": "C01",
+      "lessonId": "C01-L03",
+      "prompt": "During an agreed interaction, Sam becomes still and stops responding. Their partner is unsure what changed.",
+      "options": [
+        "Continue because Sam has not said the agreed stop word.",
+        "Stop, allow space, and check whether Sam wants any support."
+      ],
+      "correctIndex": 1,
+      "feedback": "A stop word is an additional communication tool. Silence or freezing does not authorise continuation.",
+      "sourceIds": [
+        "A01",
+        "A02"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C02-L01-SCENARIO",
+      "moduleId": "C02",
+      "lessonId": "C02-L01",
+      "prompt": "Alex says, 'I want things to be more private.' Jordan is unsure what that means.",
+      "options": [
+        "Ask which information or activities Alex wants kept private.",
+        "Assume it only means hiding social-media posts."
+      ],
+      "correctIndex": 0,
+      "feedback": "Clarifying the specific meaning prevents both people from acting on different assumptions.",
+      "sourceIds": [
+        "A03",
+        "A06"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C02-L02-SCENARIO",
+      "moduleId": "C02",
+      "lessonId": "C02-L02",
+      "prompt": "One adult wants an exclusive relationship. The other openly says they do not want exclusivity.",
+      "options": [
+        "Keep pressuring the other adult because compromise means meeting halfway on every boundary.",
+        "Recognise the difference and decide whether any freely chosen arrangement works for both."
+      ],
+      "correctIndex": 1,
+      "feedback": "Some preferences are incompatible. Respect does not require either person to accept an unwanted relationship structure.",
+      "sourceIds": [
+        "A07",
+        "A32"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C02-L03-SCENARIO",
+      "moduleId": "C02",
+      "lessonId": "C02-L03",
+      "prompt": "Riley receives an intimate image privately and wants to show it to a close friend for reassurance about the relationship.",
+      "options": [
+        "Do not show or forward it; seek support without exposing the image or identifiable details.",
+        "Show it because one trusted friend is not a public audience."
+      ],
+      "correctIndex": 0,
+      "feedback": "A new viewer is a new audience. Permission for private receipt does not include permission to show a friend.",
+      "sourceIds": [
+        "A08",
+        "A09"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C03-L01-SCENARIO",
+      "moduleId": "C03",
+      "lessonId": "C03-L01",
+      "prompt": "An adult says they have pain around the external genital skin but calls the whole region 'the vagina'. A learner wants to help them prepare a medical question.",
+      "options": [
+        "Correct them harshly before discussing the concern.",
+        "Offer 'vulva' as a useful external-anatomy term while respecting their preferred language."
+      ],
+      "correctIndex": 1,
+      "feedback": "Accurate terms can improve care without shaming someone or dismissing their experience.",
+      "sourceIds": [
+        "A10",
+        "A11",
+        "A12",
+        "A13"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C03-L02-SCENARIO",
+      "moduleId": "C03",
+      "lessonId": "C03-L02",
+      "prompt": "A learner sees a narrow range of bodies online and concludes that their own long-standing asymmetry must be unhealthy.",
+      "options": [
+        "Treat the images as the medical standard.",
+        "Recognise variation and seek a clinician's advice if worried or experiencing changes or symptoms."
+      ],
+      "correctIndex": 1,
+      "feedback": "An image comparison cannot diagnose a condition. Variation is expected, while concerns and new symptoms deserve individual assessment.",
+      "sourceIds": [
+        "A12",
+        "A13",
+        "A14"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C03-L03-SCENARIO",
+      "moduleId": "C03",
+      "lessonId": "C03-L03",
+      "prompt": "An adult develops sudden, severe pain in one testicle while completing this course.",
+      "options": [
+        "Seek emergency medical assessment now.",
+        "Wait until the end of the week to compare symptoms online."
+      ],
+      "correctIndex": 0,
+      "feedback": "Sudden or severe testicular pain can signal an emergency. Prompt assessment matters even when the cause is not yet known.",
+      "sourceIds": [
+        "A12",
+        "A15",
+        "A16",
+        "A17",
+        "A18"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C04-L01-SCENARIO",
+      "moduleId": "C04",
+      "lessonId": "C04-L01",
+      "prompt": "A partner points to a bodily response and says it proves the other adult wants to continue, although that adult has said no.",
+      "options": [
+        "Treat the bodily response as more reliable than the spoken boundary.",
+        "Respect the no; bodily response does not establish consent."
+      ],
+      "correctIndex": 1,
+      "feedback": "Arousal is not permission. The person's freely expressed decision governs participation.",
+      "sourceIds": [
+        "A01",
+        "A19",
+        "A20",
+        "A33"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C04-L02-SCENARIO",
+      "moduleId": "C04",
+      "lessonId": "C04-L02",
+      "prompt": "Two adults enjoy closeness, then one wants to stop without reaching the outcome they initially discussed.",
+      "options": [
+        "Treat stopping as failure and persuade them to finish the plan.",
+        "Accept the change and recognise the interaction on its own terms."
+      ],
+      "correctIndex": 1,
+      "feedback": "A planned outcome is never owed. Comfort and continued choice matter throughout the interaction.",
+      "sourceIds": [
+        "A04",
+        "A18",
+        "A21"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C04-L03-SCENARIO",
+      "moduleId": "C04",
+      "lessonId": "C04-L03",
+      "prompt": "An adult enjoys a private activity but is repeatedly missing sleep and work commitments and wants help changing the pattern.",
+      "options": [
+        "Suggest nonjudgemental professional support focused on the impact and the person's goals.",
+        "Declare a diagnosis solely from how many times they do it."
+      ],
+      "correctIndex": 0,
+      "feedback": "Impact, distress and the person's own goals are more useful than an arbitrary frequency rule. A clinician can assess concerns individually.",
+      "sourceIds": [
+        "A22",
+        "A02"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C05-L01-SCENARIO",
+      "moduleId": "C05",
+      "lessonId": "C05-L01",
+      "prompt": "One partner uses hormonal contraception and suggests that this also removes the need to discuss STIs.",
+      "options": [
+        "Separate pregnancy prevention from STI prevention and discuss a shared plan.",
+        "Assume hormonal contraception protects against both."
+      ],
+      "correctIndex": 0,
+      "feedback": "Hormonal contraception can prevent pregnancy but does not protect against STIs. The two questions require separate planning.",
+      "sourceIds": [
+        "A23",
+        "A24",
+        "A34",
+        "R17"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C05-L02-SCENARIO",
+      "moduleId": "C05",
+      "lessonId": "C05-L02",
+      "prompt": "A learner receives a negative test very soon after a possible exposure and assumes every infection has been ruled out.",
+      "options": [
+        "Accept the conclusion because any negative test is definitive.",
+        "Ask the clinician about the tests performed, window periods and any repeat testing."
+      ],
+      "correctIndex": 1,
+      "feedback": "Interpretation depends on the infection, sample, test and timing. Early negative results may need follow-up.",
+      "sourceIds": [
+        "A25",
+        "A26"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C05-L03-SCENARIO",
+      "moduleId": "C05",
+      "lessonId": "C05-L03",
+      "prompt": "A condom broke last night and an adult is concerned about both pregnancy and HIV exposure.",
+      "options": [
+        "Seek prompt professional advice about both emergency contraception and HIV PEP.",
+        "Take one emergency contraceptive pill and assume both concerns are addressed."
+      ],
+      "correctIndex": 0,
+      "feedback": "The risks are distinct and both may be time-sensitive. A clinician or pharmacist can direct the appropriate care.",
+      "sourceIds": [
+        "A27",
+        "A28",
+        "A29",
+        "A30",
+        "A34"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C06-L01-SCENARIO",
+      "moduleId": "C06",
+      "lessonId": "C06-L01",
+      "prompt": "Two adults both describe their relationship as 'open' but discover that they have different expectations about what information is shared.",
+      "options": [
+        "Assume the label should already have resolved every detail.",
+        "Clarify the expectations and agree on a process that respects everyone affected."
+      ],
+      "correctIndex": 1,
+      "feedback": "Relationship labels do not establish detailed agreements. Specific communication and privacy choices are still needed.",
+      "sourceIds": [
+        "A07",
+        "A01"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C06-L02-SCENARIO",
+      "moduleId": "C06",
+      "lessonId": "C06-L02",
+      "prompt": "An adult responds to jealousy by demanding passwords, tracking a partner's movements and threatening to cut off their access to money.",
+      "options": [
+        "Recognise possible coercive control and seek specialist support about safety and options.",
+        "Treat the situation only as a communication-style mismatch."
+      ],
+      "correctIndex": 0,
+      "feedback": "Monitoring, threats and financial restriction can form a pattern of control. It needs more than a conversational technique.",
+      "sourceIds": [
+        "A31",
+        "A32"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C06-L03-SCENARIO",
+      "moduleId": "C06",
+      "lessonId": "C06-L03",
+      "prompt": "After apologising for a broken agreement, an adult says their partner now owes them a hug and a fresh start.",
+      "options": [
+        "Agree because an apology creates a duty to forgive.",
+        "Recognise that repair does not entitle anyone to touch, forgiveness or continued contact."
+      ],
+      "correctIndex": 1,
+      "feedback": "An apology is an act of accountability, not a transaction for access. The other adult retains all their boundaries.",
+      "sourceIds": [
+        "A07",
+        "A08",
+        "A31"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C07-L01-SCENARIO",
+      "moduleId": "C07",
+      "lessonId": "C07-L01",
+      "prompt": "Morgan tells a new date that they are non-binary. The date wants to understand what Morgan enjoys.",
+      "options": [
+        "Ask which forms of connection Morgan wants and what language they prefer, without assuming anatomy or activities.",
+        "Ask for Morgan's medical history so their preferences can be worked out from it."
+      ],
+      "correctIndex": 0,
+      "feedback": "Identity does not reveal anatomy or preferences. Relevant, optional questions give Morgan control over what they share.",
+      "sourceIds": [
+        "B01",
+        "B02"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C07-L02-SCENARIO",
+      "moduleId": "C07",
+      "lessonId": "C07-L02",
+      "prompt": "Riley says, 'I have an intersex variation, and I do not want to discuss my medical history.' Their partner is unsure how to respond.",
+      "options": [
+        "Explain that a partner is entitled to the complete history before respecting boundaries.",
+        "Acknowledge the boundary and ask whether Riley wants to discuss any current preferences or practical needs."
+      ],
+      "correctIndex": 1,
+      "feedback": "A disclosure does not create an obligation to disclose more. Present preferences and relevant health decisions can be discussed without demanding a life history.",
+      "sourceIds": [
+        "B02",
+        "B03"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C07-L03-SCENARIO",
+      "moduleId": "C07",
+      "lessonId": "C07-L03",
+      "prompt": "Sam has shared a new name privately. A friend plans to announce it in a large group chat to show support.",
+      "options": [
+        "Ask Sam what can be shared, with whom and when, before posting anything.",
+        "Post immediately because a supportive intention makes permission unnecessary."
+      ],
+      "correctIndex": 0,
+      "feedback": "Support includes respecting control over disclosure. A welcome intention does not authorise sharing private information.",
+      "sourceIds": [
+        "B01",
+        "B04"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C08-L01-SCENARIO",
+      "moduleId": "C08",
+      "lessonId": "C08-L01",
+      "prompt": "A support person says, 'I know what Alex wants,' while Alex is still typing a response on their communication device.",
+      "options": [
+        "Accept the support person's answer because it saves time.",
+        "Wait for Alex, support their communication and pause if their own choice cannot be established."
+      ],
+      "correctIndex": 1,
+      "feedback": "Access supports the person's decision. It does not replace their answer with someone else's convenience or opinion.",
+      "sourceIds": [
+        "B05",
+        "B06"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C08-L02-SCENARIO",
+      "moduleId": "C08",
+      "lessonId": "C08-L02",
+      "prompt": "Jules previously said they were interested in a date. On the day, they report a symptom flare and want to stay home alone.",
+      "options": [
+        "Accept the cancellation and let Jules decide whether to suggest another time.",
+        "Remind Jules that the earlier yes creates a responsibility to attend."
+      ],
+      "correctIndex": 0,
+      "feedback": "An earlier plan is not a debt. Symptoms, preferences and willingness can change, and cancellation can be respected without interrogation.",
+      "sourceIds": [
+        "B05",
+        "B07",
+        "B19"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C08-L03-SCENARIO",
+      "moduleId": "C08",
+      "lessonId": "C08-L03",
+      "prompt": "A partner says, 'The usual recovery period has passed, so you should be ready for sex again.' The person who gave birth says they do not feel ready.",
+      "options": [
+        "Treat the calendar as proof that readiness has returned.",
+        "Respect their answer and support individual care if they want help with recovery or symptoms."
+      ],
+      "correctIndex": 1,
+      "feedback": "A date on a calendar cannot determine willingness or healing. Clinical advice and the person's present choice both matter.",
+      "sourceIds": [
+        "B08",
+        "B09",
+        "B05",
+        "R18"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C09-L01-SCENARIO",
+      "moduleId": "C09",
+      "lessonId": "C09-L01",
+      "prompt": "Taylor describes an imagined scenario and adds, 'I like it as a fantasy, but I do not want to do it.' Their partner wants to surprise them with it.",
+      "options": [
+        "Treat the fantasy as a secret request and arrange the surprise.",
+        "Respect the stated limit; the fantasy is not permission for real-world action."
+      ],
+      "correctIndex": 1,
+      "feedback": "Taylor has clearly separated imagination from participation. Acting against that limit would disregard their choice.",
+      "sourceIds": [
+        "B10",
+        "B11"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C09-L02-SCENARIO",
+      "moduleId": "C09",
+      "lessonId": "C09-L02",
+      "prompt": "During an agreed interaction, Casey becomes unusually quiet and does not respond to a check-in. They have not used the agreed stop word.",
+      "options": [
+        "Stop and check their wellbeing; the unused stop word does not establish consent.",
+        "Continue because stopping was assigned to the special word."
+      ],
+      "correctIndex": 0,
+      "feedback": "An agreed signal is an aid, not the only valid way to withdraw or show uncertainty. A lack of response requires stopping.",
+      "sourceIds": [
+        "B10",
+        "B11",
+        "B21"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C09-L03-SCENARIO",
+      "moduleId": "C09",
+      "lessonId": "C09-L03",
+      "prompt": "After an interaction, a person says a boundary was crossed. Their partner offers a comforting conversation and says that should settle the matter.",
+      "options": [
+        "Agree that aftercare cancels the violation if it is offered sincerely.",
+        "Address immediate needs and accountability while respecting the person's decisions about further contact and support."
+      ],
+      "correctIndex": 1,
+      "feedback": "Support may help, but it cannot retroactively provide consent. The affected person is not required to forgive, remain or reassure anyone.",
+      "sourceIds": [
+        "B12",
+        "B10",
+        "B20",
+        "B21"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C10-L01-SCENARIO",
+      "moduleId": "C10",
+      "lessonId": "C10-L01",
+      "prompt": "A person agrees to a private portrait. Their partner wants to use AI to turn it into sexual imagery and share it with a closed group.",
+      "options": [
+        "Ask for specific permission for the new creation and audience; the portrait permission does not cover either.",
+        "Proceed because an existing photograph and a closed group make new permission unnecessary."
+      ],
+      "correctIndex": 0,
+      "feedback": "Consent concerns the intended use and audience. AI alteration and onward sharing each require their own informed agreement.",
+      "sourceIds": [
+        "B13",
+        "B14"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C10-L02-SCENARIO",
+      "moduleId": "C10",
+      "lessonId": "C10-L02",
+      "prompt": "An unknown account threatens to publish an adult's intimate image unless they send money immediately.",
+      "options": [
+        "Pay quickly and send another image to show cooperation.",
+        "Do not pay or send more material; follow eSafety's reporting, evidence and blocking guidance and seek support."
+      ],
+      "correctIndex": 1,
+      "feedback": "Giving in can lead to further demands. Official support and reporting are safer responses than continued engagement.",
+      "sourceIds": [
+        "B15",
+        "B25",
+        "B20",
+        "B26"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C10-L03-SCENARIO",
+      "moduleId": "C10",
+      "lessonId": "C10-L03",
+      "prompt": "An adult says, 'Everyone in that clip seemed to enjoy it, so my partner should be happy to try it too.'",
+      "options": [
+        "Treat the clip as entertainment and ask about the partner's actual wishes without pressure.",
+        "Use the clip to prove that declining would be unreasonable."
+      ],
+      "correctIndex": 0,
+      "feedback": "A performance cannot supply another person's consent or preferences. Their own answer is the relevant information.",
+      "sourceIds": [
+        "B16",
+        "B11"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C11-L01-SCENARIO",
+      "moduleId": "C11",
+      "lessonId": "C11-L01",
+      "prompt": "Lee experiences pain and asks to stop. Their partner suggests continuing so the body can 'get used to it'.",
+      "options": [
+        "Stop, support Lee's comfort and encourage appropriate assessment if they want help.",
+        "Continue because adapting to pain is necessary for progress."
+      ],
+      "correctIndex": 0,
+      "feedback": "Pain is not a course requirement or a challenge to overcome for a partner. Continuing against a request to stop disregards consent.",
+      "sourceIds": [
+        "B17",
+        "B24"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C11-L02-SCENARIO",
+      "moduleId": "C11",
+      "lessonId": "C11-L02",
+      "prompt": "Two partners have different levels of desire. One suggests a quota of sexual activity that the other must meet to keep the relationship.",
+      "options": [
+        "Accept the quota as the only fair compromise.",
+        "Discuss feelings and compatible choices without requiring unwanted sex; seek support if both want it."
+      ],
+      "correctIndex": 1,
+      "feedback": "Compromise cannot require someone to override consent. Honest discussion may reveal shared options or a compatibility issue.",
+      "sourceIds": [
+        "B11",
+        "B18",
+        "B19"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C11-L03-SCENARIO",
+      "moduleId": "C11",
+      "lessonId": "C11-L03",
+      "prompt": "A friend says a past encounter is troubling them but does not want to explain the details or report it today.",
+      "options": [
+        "Listen, respect their pace and offer support options without demanding details or a report.",
+        "Insist on the full story and report immediately on their behalf regardless of their wishes."
+      ],
+      "correctIndex": 0,
+      "feedback": "Support should preserve choice. Immediate danger or specific legal duties may require a different response, but those should be explained rather than invented.",
+      "sourceIds": [
+        "B11",
+        "B20",
+        "B22"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C12-L01-SCENARIO",
+      "moduleId": "C12",
+      "lessonId": "C12-L01",
+      "prompt": "A learner feels they must try a new sexual activity to prove that completing the course made a difference.",
+      "options": [
+        "Choose a communication, privacy or resource-finding action; participation is not a learning requirement.",
+        "Select an activity despite hesitation so there is measurable progress."
+      ],
+      "correctIndex": 0,
+      "feedback": "The course assesses understanding and decisions. Trying sexual activities is neither required nor an appropriate performance measure.",
+      "sourceIds": [
+        "B23",
+        "B11"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C12-L02-SCENARIO",
+      "moduleId": "C12",
+      "lessonId": "C12-L02",
+      "prompt": "A person apologises for sharing private information, then says their partner must forgive them immediately and continue the relationship.",
+      "options": [
+        "Treat immediate forgiveness as a reasonable condition of the apology.",
+        "Remove the demand, take responsibility and respect the partner's choices about contact and the relationship."
+      ],
+      "correctIndex": 1,
+      "feedback": "An apology does not create a debt. Accountability and corrective action do not guarantee forgiveness or continued access.",
+      "sourceIds": [
+        "B21",
+        "B22",
+        "B23"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "C12-L03-SCENARIO",
+      "moduleId": "C12",
+      "lessonId": "C12-L03",
+      "prompt": "A learner with a new persistent symptom finds a popular AI answer promising a diagnosis and a guaranteed remedy.",
+      "options": [
+        "Use the answer as a prompt for questions, then seek a qualified clinical assessment instead of treating the promise as a diagnosis.",
+        "Treat the confident wording as sufficient evidence and begin the remedy."
+      ],
+      "correctIndex": 0,
+      "feedback": "An AI response can help organise questions, but it cannot establish a diagnosis or the suitability of treatment for an individual.",
+      "sourceIds": [
+        "B24",
+        "B22",
+        "B04",
+        "B25",
+        "B11"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "E01-L01-SCENARIO",
+      "moduleId": "E01",
+      "lessonId": "E01-L01",
+      "prompt": "A partner says “Less pressure, please.” What is the most useful response?",
+      "options": [
+        "Reduce the pressure, check the change and remain ready to stop.",
+        "Ask them to prove that your previous technique was wrong."
+      ],
+      "correctIndex": 0,
+      "feedback": "Feedback describes a preference, not a dispute to win. Adapt while continuing to respect their choices.",
+      "sourceIds": [
+        "R02"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "E01-L02-SCENARIO",
+      "moduleId": "E01",
+      "lessonId": "E01-L02",
+      "prompt": "A connected product is paired with a partner’s phone. They say pairing means permanent permission to control it. Which response fits the course?",
+      "options": [
+        "Agree because the device has already been purchased.",
+        "Explain that control needs current agreement and a way to stop."
+      ],
+      "correctIndex": 1,
+      "feedback": "Technical access is not ongoing consent. The user must retain control over participation.",
+      "sourceIds": [
+        "R10"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "E02-L01-SCENARIO",
+      "moduleId": "E02",
+      "lessonId": "E02-L01",
+      "prompt": "Two adults assume that oral contact cannot transmit infections. What should their planning include?",
+      "options": [
+        "Treat oral contact as risk-free because pregnancy is not possible from that activity.",
+        "Discuss relevant barriers and ask a clinician about suitable testing."
+      ],
+      "correctIndex": 1,
+      "feedback": "Pregnancy risk and infection risk are different. Health planning should reflect the actual contact.",
+      "sourceIds": [
+        "R02",
+        "R09",
+        "R15"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "E02-L02-SCENARIO",
+      "moduleId": "E02",
+      "lessonId": "E02-L02",
+      "prompt": "A learner says discomfort must be endured to count as experienced. What is the appropriate response?",
+      "options": [
+        "Pain is information to stop and assess; experience is not measured by tolerance.",
+        "Discomfort should be ignored if the activity was planned."
+      ],
+      "correctIndex": 0,
+      "feedback": "A plan never overrides present comfort or the right to stop. Seek clinical advice when symptoms persist or are concerning.",
+      "sourceIds": [
+        "R02",
+        "R11",
+        "R16"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "E03-L01-SCENARIO",
+      "moduleId": "E03",
+      "lessonId": "E03-L01",
+      "prompt": "Two partners invite a third adult but have already decided that the third person cannot set boundaries. What is missing?",
+      "options": [
+        "A more exciting invitation.",
+        "The third person’s equal right to choose and set limits."
+      ],
+      "correctIndex": 1,
+      "feedback": "An existing relationship does not give its members authority over another adult’s consent.",
+      "sourceIds": [
+        "R02"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "E03-L02-SCENARIO",
+      "moduleId": "E03",
+      "lessonId": "E03-L02",
+      "prompt": "One participant withdraws from an agreed activity. The others want to continue involving them because everyone planned it. What should happen?",
+      "options": [
+        "The plan overrides the change.",
+        "Their participation stops; the others make separate choices without pressure."
+      ],
+      "correctIndex": 1,
+      "feedback": "Consent is individual and ongoing. A group cannot overrule a person’s withdrawal.",
+      "sourceIds": [
+        "R02",
+        "R13"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "E04-L01-SCENARIO",
+      "moduleId": "E04",
+      "lessonId": "E04-L01",
+      "prompt": "Someone says a signed plan means no one can change their mind. Which reply is accurate?",
+      "options": [
+        "A written plan supports discussion but never removes the right to stop.",
+        "Signing makes all future actions acceptable."
+      ],
+      "correctIndex": 0,
+      "feedback": "Future consent cannot be guaranteed by a document.",
+      "sourceIds": [
+        "R02"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "E04-L02-SCENARIO",
+      "moduleId": "E04",
+      "lessonId": "E04-L02",
+      "prompt": "An instructor says the fee includes a private sexual session, despite the learner never agreeing. What should the learner know?",
+      "options": [
+        "Paying for teaching automatically includes any activity the instructor offers.",
+        "Teaching access and sexual consent are separate; they can decline and seek support."
+      ],
+      "correctIndex": 1,
+      "feedback": "Payment and professional status do not create sexual permission.",
+      "sourceIds": [
+        "R02",
+        "R14"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "E05-L01-SCENARIO",
+      "moduleId": "E05",
+      "lessonId": "E05-L01",
+      "prompt": "Someone paid for dinner and now says sex is owed. Which response fits the course?",
+      "options": [
+        "Payment creates no entitlement; the other person can decline and leave.",
+        "The cost decides what contact is fair."
+      ],
+      "correctIndex": 0,
+      "feedback": "Consent is independent of money spent or expectations.",
+      "sourceIds": [
+        "R02",
+        "R12"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "E05-L02-SCENARIO",
+      "moduleId": "E05",
+      "lessonId": "E05-L02",
+      "prompt": "A person received an intimate photo privately and wants to upload it to an AI image editor. What should happen?",
+      "options": [
+        "Receiving it already permits editing and uploading.",
+        "They must not assume permission for the new use or disclosure."
+      ],
+      "correctIndex": 1,
+      "feedback": "Private receipt does not cover AI processing or a different audience.",
+      "sourceIds": [
+        "R02",
+        "R13"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "E06-L01-SCENARIO",
+      "moduleId": "E06",
+      "lessonId": "E06-L01",
+      "prompt": "A person experiences recurring pain and is told to push through to reassure their partner. What is the better response?",
+      "options": [
+        "Continue until the partner is satisfied.",
+        "Stop painful activity and seek appropriate assessment while discussing other forms of connection."
+      ],
+      "correctIndex": 1,
+      "feedback": "Pain merits attention. Reassurance must not require unwanted or painful activity.",
+      "sourceIds": [
+        "R02",
+        "R15"
+      ],
+      "countsForCertificate": false
+    },
+    {
+      "id": "E06-L02-SCENARIO",
+      "moduleId": "E06",
+      "lessonId": "E06-L02",
+      "prompt": "A partner assumes that needing practical assistance means another adult cannot set their own boundaries. What should change?",
+      "options": [
+        "The assumption: support should enable that adult’s own choices.",
+        "The adult should let the helper decide everything."
+      ],
+      "correctIndex": 0,
+      "feedback": "Access needs do not remove autonomy. Reliable communication and voluntary choice remain central.",
+      "sourceIds": [
+        "R02",
+        "R14"
+      ],
+      "countsForCertificate": false
+    }
+  ],
+  "planning": {
+    "case": "Alex and Sam are adults planning to spend time together after meeting online. They have different assumptions about what the visit involves. Alex wants a quiet, accessible venue and uses text for some conversations. Sam hopes for intimacy but has not asked about it. Neither has discussed health precautions or photographs. They want a plan that lets either person choose differently on the day.",
+    "task": "Write a short plan for Alex and Sam covering what needs clarification, how they can communicate, how each can decline or leave, what health and privacy questions belong before any intimacy, and where they could seek advice. Their final decision may be to meet without sex or not to meet.",
+    "rubric": [
+      {
+        "criterion": "Voluntary and specific agreement",
+        "meets": "The plan asks about actual wishes and accepts no without pressure.",
+        "revise": "The plan assumes that a visit, relationship or payment means sex."
+      },
+      {
+        "criterion": "Accessible communication",
+        "meets": "Text or another chosen method is available, with time to respond.",
+        "revise": "The plan treats communication needs as a reason to let someone else decide."
+      },
+      {
+        "criterion": "Pause and exit",
+        "meets": "Both people can stop or leave without bargaining or retaliation.",
+        "revise": "The plan creates a duty to finish or remain."
+      },
+      {
+        "criterion": "Health planning",
+        "meets": "Questions reflect actual proposed activities and direct individual concerns to clinical advice.",
+        "revise": "The plan infers health status from appearance or identity."
+      },
+      {
+        "criterion": "Digital privacy",
+        "meets": "Photographs, storage, sharing and AI use need separate agreement.",
+        "revise": "The plan assumes private images can be reused freely."
+      },
+      {
+        "criterion": "Support and limits",
+        "meets": "The plan identifies a reliable help route and does not claim a guarantee of safety.",
+        "revise": "The plan relies on the course as a diagnosis, legal ruling or emergency service."
+      }
+    ],
+    "modelResponse": "Alex and Sam first clarify what each wants from the meeting, using text and allowing time if that suits them. They choose a quiet, accessible venue and practical, independent ways to leave. Sam asks about interest without treating the visit as agreement to sex. Either can decline, pause or leave without bargaining or retaliation. Any activity needs a clear, voluntary choice at the time. They discuss precautions relevant to the activities they might choose and take individual health questions to a qualified clinician; healthdirect can help identify appropriate care in Australia. Taking photographs, storing them, sharing them and using them in an AI service each need separate agreement. They do not use a private account or prior permission as a substitute. For online image abuse they can seek eSafety's reporting guidance, and for pressure or violence they can seek independent specialist support. The course cannot diagnose, decide local law or guarantee safety. Meeting without sex, postponing and declining remain valid outcomes.",
+    "planningPassRule": "All six applied-case decisions correct after feedback; alternatively, all six written rubric criteria met following human review."
+  },
+  "deliveryPolicy": {
+    "questionsRequireAuthorisedSession": true,
+    "questionResponseFields": [
+      "id",
+      "prompt",
+      "options"
+    ],
+    "feedbackRequiresSubmittedAttemptOwnership": true,
+    "answerKeysInClientBundle": false,
+    "answerKeysInTutorContext": false,
+    "shuffleMustPreserveOptionMappingOnServer": true,
+    "practiceResultsMayIssueCredential": false
+  }
+}

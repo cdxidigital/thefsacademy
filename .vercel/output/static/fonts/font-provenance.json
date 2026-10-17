@@ -1,0 +1,40 @@
+{
+  "source": "Official google/fonts repository",
+  "repository": "https://github.com/google/fonts",
+  "downloadedDate": "2026-10-17",
+  "licence": "SIL Open Font License; see family-specific OFL files",
+  "fonts": [
+    {
+      "file": "cormorantgaramond-variable.ttf",
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 300.0,
+          "default": 300.0,
+          "max": 700.0
+        }
+      ],
+      "bytes": 1195560,
+      "sha256": "b20b7d9626dd956b2c5e558692ad328b1f19e3275e2782db4fa07670d83f35e0"
+    },
+    {
+      "file": "dmsans-variable.ttf",
+      "axes": [
+        {
+          "tag": "opsz",
+          "min": 9.0,
+          "default": 9.0,
+          "max": 40.0
+        },
+        {
+          "tag": "wght",
+          "min": 100.0,
+          "default": 400.0,
+          "max": 1000.0
+        }
+      ],
+      "bytes": 240164,
+      "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+    }
+  ]
+}

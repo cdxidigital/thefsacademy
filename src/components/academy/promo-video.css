@@ -1,0 +1,324 @@
+/* The hero owns placement. This player stays in normal document flow. */
+.hero-promo {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  margin: 0;
+  border: 1px solid #c7a86d45;
+  border-radius: 18px;
+  background: #0d1014ed;
+  box-shadow: 0 22px 55px #0005;
+  color: var(--paper, #f4eee6);
+  overflow: hidden;
+  text-align: left;
+}
+
+.promo-screen {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #0d1014;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.promo-media {
+  display: block;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  background: #0d1014;
+}
+
+.hero-promo[data-error="true"] .promo-media {
+  visibility: hidden;
+}
+
+.promo-play-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 20px;
+  border: 0;
+  color: var(--paper, #f4eee6);
+  background: linear-gradient(0deg, #0d101466, #0d101414);
+  cursor: pointer;
+}
+
+.promo-play-overlay > svg {
+  box-sizing: content-box;
+  padding: 17px;
+  border: 1px solid #f4eee6a6;
+  border-radius: 50%;
+  background: #0d1014cc;
+  color: var(--blush, #e6a7bb);
+}
+
+.promo-play-overlay > span {
+  padding: 5px 10px;
+  border-radius: 30px;
+  background: #0d1014e6;
+  color: var(--paper, #f4eee6);
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+.promo-play-overlay:disabled {
+  cursor: default;
+  opacity: .65;
+}
+
+.promo-caption {
+  padding: 17px 18px 12px;
+}
+
+.promo-title-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 6px 15px;
+  margin-bottom: 10px;
+}
+
+.promo-title-row > strong {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.promo-title-row > span {
+  color: var(--brass, #c7a86d);
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.promo-controls {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  min-width: 0;
+}
+
+.promo-control {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 36px;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  background: transparent;
+  color: var(--paper, #f4eee6);
+  cursor: pointer;
+}
+
+.promo-main-control {
+  color: var(--blush, #e6a7bb);
+}
+
+.promo-control:hover:not(:disabled),
+.promo-control[aria-pressed="true"] {
+  border-color: #e6a7bb45;
+  background: #e6a7bb15;
+}
+
+.promo-control:disabled {
+  opacity: .4;
+  cursor: default;
+}
+
+.promo-seek {
+  flex: 1 1 auto;
+  min-width: 30px;
+  width: 100%;
+  height: 24px;
+  margin: 0 7px;
+  padding: 0;
+  border: 0;
+  accent-color: var(--blush, #e6a7bb);
+  cursor: pointer;
+}
+
+.promo-seek:disabled {
+  cursor: default;
+  opacity: .4;
+}
+
+.promo-time {
+  flex: 0 0 auto;
+  margin: 0 4px;
+  color: var(--paper, #f4eee6);
+  font-size: 10px;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+.promo-time > span {
+  color: #b6bac1;
+}
+
+.promo-control:focus-visible,
+.promo-seek:focus-visible,
+.promo-transcript > summary:focus-visible,
+.promo-retry:focus-visible {
+  outline: 2px solid var(--blush, #e6a7bb);
+  outline-offset: 3px;
+}
+
+.promo-play-overlay:focus-visible {
+  outline: 3px solid var(--blush, #e6a7bb);
+  outline-offset: -6px;
+}
+
+.promo-status,
+.promo-caption-notice {
+  color: #c2c5cc;
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.promo-status:empty {
+  display: none;
+}
+
+.promo-status:not(:empty),
+.promo-caption-notice {
+  margin: 10px 0 5px;
+}
+
+.promo-retry {
+  border: 0;
+  padding: 8px 0;
+  background: transparent;
+  color: var(--blush, #e6a7bb);
+  font: inherit;
+  font-size: 11px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.promo-transcript {
+  margin-top: 9px;
+  border-top: 1px solid #f4eee614;
+}
+
+.promo-transcript > summary {
+  width: fit-content;
+  max-width: 100%;
+  padding: 11px 0 3px;
+  color: #c2c5cc;
+  font-size: 10px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.promo-transcript > div {
+  padding: 3px 0 5px;
+}
+
+.promo-transcript p {
+  margin: 10px 0;
+  color: #d2d1d0;
+  font-size: 11px;
+  line-height: 1.75;
+}
+
+.promo-fallback {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 25px;
+  background: #0d1014;
+}
+
+.promo-fallback > img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  opacity: .55;
+}
+
+.promo-fallback > span {
+  position: relative;
+  padding: 9px 13px;
+  border: 1px solid #f4eee62b;
+  border-radius: 6px;
+  background: #0d1014e6;
+  font-size: 13px;
+}
+
+.hero-promo:fullscreen {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  padding: 20px;
+  border: 0;
+  border-radius: 0;
+  background: #0d1014;
+  overflow: auto;
+}
+
+.hero-promo:fullscreen .promo-screen {
+  flex: 1 1 auto;
+  min-height: 0;
+  aspect-ratio: auto;
+}
+
+.hero-promo:fullscreen .promo-media {
+  aspect-ratio: auto;
+  max-height: calc(100svh - 140px);
+}
+
+.hero-promo:fullscreen .promo-caption {
+  flex: 0 0 auto;
+  width: min(900px, 100%);
+  margin: 0 auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root[data-motion="on"] .promo-control {
+    transition: color 140ms, background-color 140ms, border-color 140ms;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-promo { border-radius: 13px; }
+  .promo-caption { padding: 13px 12px 10px; }
+  .promo-title-row { gap: 4px 12px; margin-bottom: 8px; }
+  .promo-title-row > strong { font-size: 12px; }
+  .promo-title-row > span { font-size: 10px; }
+  .promo-controls { gap: 0; flex-wrap: wrap; }
+  .promo-control { width: 40px; height: 44px; }
+  .promo-replay-control { width: 34px; }
+  .promo-seek { flex: 1 1 0; width: 0; min-width: 40px; margin: 0 3px; }
+  .promo-time { margin: 0 3px; font-size: 9px; }
+  .promo-transcript > summary { padding-top: 12px; padding-bottom: 8px; font-size: 11px; }
+  .hero-promo:fullscreen { padding: 8px; }
+}
+
+@media print {
+  .promo-media,
+  .promo-play-overlay,
+  .promo-controls,
+  .promo-status,
+  .promo-retry { display: none !important; }
+  .hero-promo { border-color: #aaa; box-shadow: none; background: white; color: black; }
+  .promo-screen { display: none; }
+}

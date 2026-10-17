@@ -1,0 +1,61 @@
+@import "tailwindcss";
+@import "./styles/academy/globals.css";
+@import "./styles/academy/brand.css";
+@import "./components/academy/motion.css";
+@import "./components/academy/promo-video.css";
+@import "./components/academy/release-polish.css";
+@import "./components/academy/tutor.css";
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+.secure-providers {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 14px;
+}
+.secure-account .notice.error {
+  display: block;
+}
+
+.nav-menu { position: relative; }
+.nav-menu > button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0;
+  color: #d8cbd3;
+  font-size: 12px;
+  background: none;
+}
+.nav-menu > button.active,
+.nav-menu > button[aria-expanded="true"],
+.nav-menu > button:hover { color: var(--accent, #e6a7bb); }
+.nav-dropdown {
+  position: absolute;
+  top: calc(100% + 22px);
+  left: -12px;
+  z-index: 40;
+  display: flex;
+  flex-direction: column;
+  min-width: 248px;
+  padding: 8px;
+  border: 1px solid #ffffff24;
+  border-radius: 14px;
+  background: #12161ccc;
+  box-shadow: 0 18px 40px #0008;
+  backdrop-filter: blur(16px);
+}
+.nav-dropdown a {
+  padding: 11px 12px;
+  border-radius: 9px;
+  color: #f4eee6;
+  font-size: 13px;
+}
+.nav-dropdown a:hover { background: #ffffff12; color: #e6a7bb; }
+

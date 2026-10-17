@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "fleshsesh academy — Know more. Feel more. Be you.",
+      "hasCanvas": false,
+      "bodyTextLen": 4451,
+      "bodyTextHash": "6dd1a4189edfe599499a5b69c2b69f63d2fe701b30eced41e314572f2f091891",
+      "bodyTextPrefix": "Skip to content The Academy Our approach Membership Try the demo",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "fleshsesh academy — Know more. Feel more. Be you.",
+      "hasCanvas": false,
+      "bodyTextLen": 4288,
+      "bodyTextHash": "45d349c85a02f5c051ca386f96fbe0a58e70b68e074b6025f8bfca6c80d9b061",
+      "bodyTextPrefix": "Skip to content Log in Start free YOUR CURIOSITY BELONGS HERE Kn",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

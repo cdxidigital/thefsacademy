@@ -1,0 +1,21 @@
+/* Focused release additions; the supplied brand tokens remain authoritative. */
+.hero-demo-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  margin-top: 12px;
+  color: var(--brass);
+  font-size: 13px;
+  text-underline-offset: 5px;
+}
+.hero-demo-link:hover { text-decoration: underline; }
+.hero-demo-link:focus-visible { outline: 2px solid var(--blush); outline-offset: 5px; border-radius: 3px; }
+@media (max-width: 600px) {
+  .hero-demo-link { margin-top: 8px; }
+}
+/* Make room for the added demo destination before switching to compact navigation. */
+@media (min-width: 601px) and (max-width: 1200px) {
+  .main-nav { display: none; }
+  .mobile-menu { display: inline-flex; }
+}
