@@ -1,0 +1,35 @@
+name: Academy release checks
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      # CI must never connect to a production database or run migrations there.
+      DATABASE_URL: ""
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - name: Install locked dependencies
+        run: npm ci
+      - name: Typecheck
+        run: npm run typecheck
+      - name: Unit and release-safety tests
+        run: npm test
+      - name: Lint
+        run: npm run lint
+      - name: Build without a remote database
+        run: npm run build
