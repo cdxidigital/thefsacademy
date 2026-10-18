@@ -364,6 +364,16 @@ var GraduationCap = createLucideIcon("graduation-cap", [
 * This source code is licensed under the ISC license.
 * See the LICENSE file in the root directory of this source tree.
 */
+var Headphones = createLucideIcon("headphones", [["path", {
+	d: "M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3",
+	key: "1xhozi"
+}]]);
+/**
+* @license lucide-react v0.510.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
 var HeartHandshake = createLucideIcon("heart-handshake", [
 	["path", {
 		d: "M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z",
@@ -909,4 +919,4 @@ var X = createLucideIcon("x", [["path", {
 	key: "d8bk6v"
 }]]);
 //#endregion
-export { FileText as A, Check as B, LoaderCircle as C, HeartHandshake as D, Heart as E, Clock as F, BookOpen as H, ClipboardCheck as I, CircleCheckBig as L, Download as M, CreditCard as N, GraduationCap as O, Compass as P, ChevronRight as R, Lock as S, LayoutDashboard as T, ArrowUpRight as U, Captions as V, ArrowRight as W, Minimize as _, Trophy as a, Maximize as b, Target as c, Settings as d, Search as f, Pause as g, Phone as h, UserRound as i, ExternalLink as j, Flag as k, Sparkles as l, Play as m, VolumeX as n, TriangleAlert as o, RotateCcw as p, Volume2 as r, Trash2 as s, X as t, ShieldCheck as u, MessageCircle as v, LifeBuoy as w, LogOut as x, Menu as y, ChevronDown as z };
+export { Flag as A, ChevronDown as B, LoaderCircle as C, HeartHandshake as D, Heart as E, Compass as F, ArrowRight as G, Captions as H, Clock as I, ClipboardCheck as L, ExternalLink as M, Download as N, Headphones as O, CreditCard as P, CircleCheckBig as R, Lock as S, LayoutDashboard as T, BookOpen as U, Check as V, ArrowUpRight as W, Minimize as _, Trophy as a, Maximize as b, Target as c, Settings as d, Search as f, Pause as g, Phone as h, UserRound as i, FileText as j, GraduationCap as k, Sparkles as l, Play as m, VolumeX as n, TriangleAlert as o, RotateCcw as p, Volume2 as r, Trash2 as s, X as t, ShieldCheck as u, MessageCircle as v, LifeBuoy as w, LogOut as x, Menu as y, ChevronRight as z };

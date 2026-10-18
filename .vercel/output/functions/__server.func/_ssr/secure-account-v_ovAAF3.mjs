@@ -2,7 +2,7 @@ import { o as __toESM } from "../_runtime.mjs";
 import { an as isSafeUrlScheme, in as createFetch, nn as toKebabCase, tn as capitalizeFirstLetter } from "../_libs/@better-auth/core+[...].mjs";
 import { a as getBaseURL, i as PACKAGE_VERSION, l as hasGateSessionMarker, n as GENERIC_OAUTH_ERROR_CODES, r as GROK_PROVIDERS } from "./providers-DG-SM06w.mjs";
 import { J as require_react, S as require_jsx_runtime, x as useRouter } from "../_libs/@tanstack/react-router+[...].mjs";
-import { W as ArrowRight, u as ShieldCheck, x as LogOut } from "../_libs/lucide-react.mjs";
+import { G as ArrowRight, u as ShieldCheck, x as LogOut } from "../_libs/lucide-react.mjs";
 import { n as defu } from "../_libs/defu.mjs";
 import { a as atom, i as onSet, n as STORE_UNMOUNT_DELAY, r as onMount, t as listenKeys } from "../_libs/nanostores.mjs";
 //#region node_modules/.nitro/vite/services/ssr/assets/secure-account-v_ovAAF3.js

@@ -64,8 +64,8 @@ export function HeroPromoVideo({
   transcriptLabel = 'Read the film description',
   hasAudio = false,
   hasCaptions = false,
-  src = '/media/academy-promo.mp4',
-  poster = '/media/academy-promo-poster.webp',
+  src = '/media/academy-invitation.mp4',
+  poster = '/media/academy-invitation-poster.webp',
   captionsSrc = '/media/academy-promo.vtt',
   title = 'A quiet invitation',
 }: HeroPromoVideoProps) {

@@ -46,8 +46,8 @@ export default function Tutor() {
   const conversationKey=[identityKey,demoKey,role,role==='assessment_tutor'?assessmentId:lessonId].join(':');
 
   if(loading) return <Loading label="Opening your tutors…"/>;
-  if(loadError||!catalog) return <section className="page-section"><ErrorPanel message={loadError||'The course could not load.'} retry={()=>{void refresh();}}/></section>;
-  if(!me?.profile) return <section className="page-section"><PageHeading kicker="YOUR LEARNING TUTORS" title={<>A little space.<br/><em>For your questions.</em></>} description="Set up your adult learner profile to explore the course with three distinct learning guides."/><ButtonLink href={me?.user?'/onboarding':'/signup'}>{me?.user?'Set up my learner profile':'Create my learner profile'}<ArrowUpRight size={17}/></ButtonLink></section>;
+  if(loadError||!catalog) return <section className="page-section"><ErrorPanel message={loadError||'The course could not load.'} retry={()=>{void refresh();}}/><ButtonLink href="/library">Back to the course library<ArrowUpRight size={17}/></ButtonLink></section>;
+  if(!me?.profile) return <section className="page-section"><PageHeading kicker="YOUR LEARNING TUTORS" title={<>A little space.<br/><em>For your questions.</em></>} description="Set up your adult learner profile to explore the course with three distinct learning guides."/><ButtonLink href={me?.user?'/onboarding':'/signup?next=/tutor'}>{me?.user?'Set up my learner profile':'Create my learner profile'}<ArrowUpRight size={17}/></ButtonLink></section>;
 
   return <section className="page-section tutor-page">
     <PageHeading kicker="THREE WAYS TO FIND YOUR NEXT STEP" title={<>A little clarity.<br/><em>In your own way.</em></>} description="An explanation, room to practise, or a clear next step. Choose a tutor for what you need today. Your private life never needs to be part of the question."/>

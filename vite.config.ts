@@ -1,5 +1,6 @@
-import { readdirSync } from "node:fs";
-import { join } from "node:path";
+import { cpSync, existsSync, readdirSync, statSync } from "node:fs";
+import { createRequire } from "node:module";
+import { dirname, join } from "node:path";
 import type { Plugin } from "vite";
 import { defineConfig } from "vite";
 import { tanstackStart } from "@tanstack/react-start/plugin/vite";
@@ -12,7 +13,53 @@ import { grokPwaPlugin } from "./scripts/grok-pwa-plugin.mjs";
 import { appEnvPlugin } from "./scripts/app-env-plugin.mjs";
 import { isMigrationFile } from "./scripts/migration-plan.mjs";
 
-/** The files `src/lib/db.ts` globs — same directory, same non-recursive scope. */
+const require = createRequire(import.meta.url);
+
+/** PGLite's wasm runtime loads these by URL next to its bundled module. */
+const PGLITE_ASSETS = ["pglite.data", "pglite.wasm", "initdb.wasm"] as const;
+
+function findNamedFiles(dir: string, name: string, found: string[] = []): string[] {
+  if (!existsSync(dir)) return found;
+  for (const entry of readdirSync(dir)) {
+    const path = join(dir, entry);
+    if (statSync(path).isDirectory()) findNamedFiles(path, name, found);
+    else if (entry === name) found.push(path);
+  }
+  return found;
+}
+
+/**
+ * Nitro inlines `@electric-sql/pglite` into the server function, then the
+ * runtime reads `./pglite.data` and the wasm files beside that module. Those
+ * binaries are not JS, so they are dropped and preview/deploy crashes with
+ * ENOENT before any query can run. Copy them next to every bundled copy.
+ */
+function pgliteAssetModule() {
+  return {
+    name: "app-builder:pglite-assets",
+    setup(nitro: {
+      options: { output: { serverDir: string } };
+      hooks: { hook: (name: "compiled", fn: () => void | Promise<void>) => void };
+    }) {
+      nitro.hooks.hook("compiled", () => {
+        const dist = dirname(require.resolve("@electric-sql/pglite"));
+        const bundles = findNamedFiles(nitro.options.output.serverDir, "electric-sql__pglite.mjs");
+        if (bundles.length === 0) {
+          console.warn("[pglite] bundled module not found; database files were not copied");
+          return;
+        }
+        for (const bundle of bundles) {
+          const dir = dirname(bundle);
+          for (const asset of PGLITE_ASSETS) {
+            const from = join(dist, asset);
+            if (!existsSync(from)) throw new Error(`[pglite] missing ${from}`);
+            cpSync(from, join(dir, asset));
+          }
+        }
+      });
+    },
+  };
+}
 function hasGlobbedMigrations(root: string): boolean {
   try {
     return readdirSync(join(root, "migrations")).some(isMigrationFile);
@@ -175,6 +222,7 @@ export default defineConfig(({ command, isPreview }) => ({
             // manifest + head-tag middleware). Nitro v3 defaults serverDir to
             // false, so removing this silently unwires /?install=1 on deploys.
             serverDir: "./server",
+            modules: [pgliteAssetModule()],
           }),
         ]
       : []),

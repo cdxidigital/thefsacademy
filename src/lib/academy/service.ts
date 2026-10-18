@@ -17,6 +17,7 @@ import {
   type AssessmentRecord,
   type QuestionRecord,
 } from "./content";
+import { lessonTeaching } from "./teachings";
 
 export const POLICY_VERSION = "2026-10-17-v1";
 const DEMO_COOKIE = "fsa_demo";
@@ -452,7 +453,7 @@ async function askGrok(system: string, user: string, history: { role: "user" | "
   const body = (await response.json()) as { choices?: { message?: { content?: string } }[] };
   const text = body.choices?.[0]?.message?.content?.trim();
   if (!text || /correct index|answer key|option [a-d] is correct/i.test(text)) return null;
-  return text;
+  return text.replace(/\*\*(.*?)\*\*/g, "$1").replace(/^\s*#{1,3}\s+/gm, "");
 }
 
 const TUTOR_VOICES = {
@@ -607,16 +608,16 @@ function certificateHtml(name: string, version: string, issuedAt: string, id: st
   const title = sample ? "Sample certificate · not valid" : "Assessed certificate of completion";
   return `<!doctype html><html lang="en-AU"><head><meta charset="utf-8"><title>fleshsesh academy · ${escapeHtml(title)}</title>
 <style>
-@page{size:A4 landscape;margin:12mm}*{box-sizing:border-box}body{margin:0;padding:28px;background:#F4EEE6;color:#0D1014;font-family:Arial,sans-serif;text-align:center}
-.sheet{position:relative;max-width:980px;margin:auto;border:1px solid #0D1014;padding:42px 48px;overflow:hidden}
-.sheet:before{content:'';position:absolute;inset:10px;border:1px solid #C7A86D;pointer-events:none}
-img{width:220px;margin:0 auto 8px}h1{font-size:28px;margin:8px 0 18px}.eyebrow{letter-spacing:.18em;font-size:11px;color:#9D3A5C;font-weight:700}
-h2{font-size:36px;margin:8px 0}.rule{width:120px;height:2px;background:#9D3A5C;margin:12px auto 16px}
-.stamp{display:inline-block;background:#9D3A5C;color:#fff;letter-spacing:.14em;font-size:12px;font-weight:700;padding:6px 12px;margin-bottom:12px}
+@page{size:A4 landscape;margin:12mm}*{box-sizing:border-box}body{margin:0;padding:28px;background:#F8F7F7;color:#1A0F1F;font-family:Arial,sans-serif;text-align:center}
+.sheet{position:relative;max-width:980px;margin:auto;border:1px solid #1A0F1F;padding:42px 48px;overflow:hidden}
+.sheet:before{content:'';position:absolute;inset:10px;border:1px solid #F49383;pointer-events:none}
+img{width:220px;margin:0 auto 8px}h1{font-size:28px;margin:8px 0 18px}.eyebrow{letter-spacing:.18em;font-size:11px;color:#5A3D86;font-weight:700}
+h2{font-size:36px;margin:8px 0}.rule{width:120px;height:2px;background:#5A3D86;margin:12px auto 16px}
+.stamp{display:inline-block;background:#5A3D86;color:#fff;letter-spacing:.14em;font-size:12px;font-weight:700;padding:6px 12px;margin-bottom:12px}
 p{line-height:1.55}.fine{font-size:12px;max-width:720px;margin:18px auto 0}.id{font-size:11px}
 @media print{.note{display:none}}
 </style></head><body><article class="sheet">
-<img src="/brand/glossy-master.png" alt="fleshsesh academy">
+<img src="/brand/flat-wordmark-dark.png" alt="fleshsesh academy">
 ${sample ? '<div class="stamp">DEMONSTRATION · NOT VALID</div>' : '<p class="eyebrow">YOUR LEARNING, RECOGNISED</p>'}
 <h1>${sample ? "Sample certificate of completion" : "Assessed certificate of completion"}</h1>
 <p>This recognises that</p><h2>${escapeHtml(name)}</h2><div class="rule"></div>
@@ -752,6 +753,7 @@ export async function handleAcademyRequest(request: Request): Promise<Response> 
         module: { ...rest, lessonIds: moduleLessons.map((item) => item.id) },
         scenario: scenario ? { id: scenario.id, prompt: scenario.prompt, options: scenario.options, countsForCertificate: false as const } : null,
         sources: sourcesFor(lesson.sourceIds ?? []),
+        teaching: lessonTeaching(lesson),
         previousLessonId: lessons[index - 1]?.id ?? null,
         nextLessonId: lessons[index + 1]?.id ?? null,
       });

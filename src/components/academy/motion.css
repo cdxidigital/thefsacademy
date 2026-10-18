@@ -15,10 +15,10 @@
   min-height: 40px;
   max-width: calc(100vw - 36px);
   padding: 9px 13px;
-  border: 1px solid #c7a86d59;
+  border: 1px solid #F4938359;
   border-radius: 100px;
-  background: #0d1014ed;
-  color: var(--paper, #f4eee6);
+  background: #1A0F1Fed;
+  color: var(--paper, #F8F7F7);
   box-shadow: 0 4px 18px #0003;
   font: inherit;
   font-size: 11px;
@@ -30,16 +30,16 @@
 
 .motion-toggle > svg {
   flex: 0 0 auto;
-  color: var(--blush, #e6a7bb);
+  color: var(--blush, #BDA4EF);
 }
 
 .motion-toggle:hover:not(:disabled) {
-  border-color: var(--brass, #c7a86d);
+  border-color: var(--brass, #F49383);
   background: #1c2027;
 }
 
 .motion-toggle:focus-visible {
-  outline: 2px solid var(--blush, #e6a7bb);
+  outline: 2px solid var(--blush, #BDA4EF);
   outline-offset: 4px;
 }
 
