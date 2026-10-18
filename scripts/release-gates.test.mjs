@@ -19,3 +19,12 @@ test("pilot pricing clearly discloses that paid memberships are not active", () 
   assert.match(pricing, /paid memberships are not active/);
   assert.match(pricing, /checkoutAvailable/);
 });
+
+
+test("production database policy blocks ephemeral PGLite on Vercel production", () => {
+  const db = readFileSync(new URL("../src/lib/db.ts", import.meta.url), "utf8");
+  assert.match(db, /process\.env\.VERCEL_ENV/);
+  assert.match(db, /vercelEnvironment === "production"/);
+  assert.match(db, /Persistent DATABASE_URL is required for the production deployment/);
+  assert.match(db, /assertDatabasePolicy\(\);/);
+});
