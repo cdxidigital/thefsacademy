@@ -39,3 +39,13 @@ Source: `cdxidigital/thefsacademy` (`main` at audit start). Scope: repository in
 
 ## Audit limitations
 No production environment variable values, payment processor approval, remote deployment mapping, live user records, executed tests or smoke-test logs were available in this connector-only review. These remain unverified.
+
+
+## Verified deployment mapping (18 October 2026)
+
+- Connected Vercel team: `jamison-parkers-projects` (Hobby plan).
+- Existing Vercel project `fleshsesh-academyu` is linked to GitHub repository `cdxidigital/fleshseshacademy`, **not** `cdxidigital/thefsacademy`.
+- Custom domain `academy.fleshsesh.fans` is attached to that older Vercel project and is currently reported as **unverified**.
+- Vercel reported one READY production deployment for the older project.
+- No Vercel project linked to `cdxidigital/thefsacademy` was found in the connected account during this audit.
+- Domain routing must not be switched until the production repository passes build/runtime checks and a replacement preview deployment is verified.
