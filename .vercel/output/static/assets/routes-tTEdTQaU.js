@@ -1,1 +1,0 @@
-import{t as e}from"./shell-Cdvw5_f1.js";var t=e;export{t as component};
